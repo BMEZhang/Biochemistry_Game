@@ -1,0 +1,16 @@
+<!--pages/P_6_9/P_6_9.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>9.关于变构效应及说法正确的是（）</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.中间代谢物可协调调节多个代谢途径的关键酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.使酶分子构象变化而失活</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.通过共价键结合在酶的调节部位</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.与变构酶结合需另一种酶的催化</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+

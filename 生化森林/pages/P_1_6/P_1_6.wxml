@@ -1,0 +1,15 @@
+<!--pages/P_1_6/P_1_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.【章嘉文】一糖尿病患者近期曾癫痫发作，且进行性加重，出现肌张力减弱、表情迟缓，检测显示患者出现乳酸酸中毒，血液乳酸和丙酮酸含量比正常值大大提高。医生以糖尿病并发症诊断治疗却没有明显疗效，复查发现皮肤成纤维细胞丙酮酸羧化酶活性极低，你作为医生会给患者补充哪种物质</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.维生素B12</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.Fe</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>C.谷氨酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.丙氨酸</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>

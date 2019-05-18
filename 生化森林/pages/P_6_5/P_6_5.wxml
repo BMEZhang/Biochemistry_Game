@@ -1,0 +1,17 @@
+<!--pages/P_6_5/P_6_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.汶川地震时一名女性于地震五天后获救，此时对患者进行血尿生化检测，以下变化最不可能出现的是（）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.血尿素氮升高</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.血丙酮酸升高</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.尿酮阳性</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.血胰岛素升高</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D</text>
+</view>
+</view>
+
+

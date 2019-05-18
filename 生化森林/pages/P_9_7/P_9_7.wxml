@@ -1,0 +1,17 @@
+<!--pages/P_9_7/P_9_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.现有A，B，C，D四种蛋白质混合物，其pI分别为6.0，2.77，9.74，5.07，现在pH=9.0的电场中电泳分离，自正极开始，电泳区带的顺序为</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.A-B-C-D</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.B-D-A-C</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.B-D-C-A</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.D-B-A-C</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.B-D-A-C</text>
+</view>
+</view>
+
+

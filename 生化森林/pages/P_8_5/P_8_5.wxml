@@ -1,0 +1,17 @@
+<!--pages/P_8_5/P_8_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.患者，女，22岁。以面色苍白、乏力前来就诊。该患者身材矮小、智力低下。尿液中乳清酸水平升高。血象检测显示：骨髓代偿性增生，巨幼红细胞>10%。血清中叶酸及维生素B12水平正常。初步诊断为乳清酸尿症。目前认为该病患者体内缺乏的酶是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.二氢乳清酸酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.氨甲酰转移酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.氨甲酰磷酸合成酶Ⅱ</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.乳清酸磷酸核糖转移酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.乳清酸磷酸核糖转移酶</text>
+</view>
+</view>
+
+

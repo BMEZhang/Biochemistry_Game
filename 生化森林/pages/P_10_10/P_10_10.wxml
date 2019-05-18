@@ -1,0 +1,16 @@
+<!--pages/P_10_10/P_10_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.酶的共价修饰调节中最常见的修饰方式是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.甲基化/脱甲基化</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.乙酰化/脱乙酰化</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.磷酸化/脱磷酸化</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.腺苷化/脱腺苷化</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.磷酸化/脱磷酸化</text>
+</view>
+</view>
+

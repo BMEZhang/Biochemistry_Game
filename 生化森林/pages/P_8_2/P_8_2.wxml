@@ -1,0 +1,17 @@
+<!--pages/P_8_2/P_8_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.患者，女，28岁。怀孕6个月进行产前B超检测时发现胎儿脑部发育不全，出现脊柱裂。初步考虑胎儿为神经管畸形。目前认为该病患者体内缺乏的物质是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.泛酸</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.叶酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.核黄素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.视黄醛</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.叶酸</text>
+</view>
+</view>
+
+

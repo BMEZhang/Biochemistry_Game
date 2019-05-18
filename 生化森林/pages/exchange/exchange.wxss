@@ -1,0 +1,13 @@
+/* pages/exchange/exchange.wxss */
+.whole{
+	width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/d30f7b94b9815a6e.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+	display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.B{
+	width: 60%
+}

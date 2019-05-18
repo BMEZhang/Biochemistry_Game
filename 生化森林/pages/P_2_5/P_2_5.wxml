@@ -1,0 +1,16 @@
+<!--pages/P_2_5/P_2_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.14岁少年，患有渐进性肌疲劳和抽筋，内科实验室检测未发现有低血糖，胰高血糖素刺激下发现脂肪动员正常，肌活检发现，肌细胞的胞质内有大量异常脂质填充空泡。该患者体内最有可能缺乏（）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.糖原脱支酶</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.肉碱</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.肌糖原磷酸化酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.肝细胞糖原磷酸化酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

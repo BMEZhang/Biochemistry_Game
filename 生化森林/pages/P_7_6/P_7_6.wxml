@@ -1,0 +1,17 @@
+<!--pages/P_7_6/P_7_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.某患儿一周岁，因多汗、夜间哭啼就医，体检发现：患儿出牙三颗，方颅，前囱2cm*2cm，该患儿的初步诊断及其致病原因是（）。</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>A.佝偻病，缺钙导致 </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.佝偻病，缺锌导致</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C. 多汗症，缺锌导致</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.坏血病，缺维生素C导致</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+
+

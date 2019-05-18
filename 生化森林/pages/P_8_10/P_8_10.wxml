@@ -1,0 +1,17 @@
+<!--pages/P_8_10/P_8_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.患者血中尿酸含量>80mg/L，经临床别嘌呤醇治疗后尿酸降为50mg/L，病人尿液中可能出现哪种化合物</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.尿黑酸</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.别嘌呤核苷酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.牛磺酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.多巴胺</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.别嘌呤核苷酸</text>
+</view>
+</view>
+
+

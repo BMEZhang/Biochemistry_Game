@@ -1,0 +1,16 @@
+<!--pages/P_6_6/P_6_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.人们发现一些现象：①仅用肥肉喂狗一段时间，其体内血糖含量基本稳定 ②用谷类食物饲养鸭，能迅速育盈 ③用蛋白质饲养患病的狗和正常的狗，发现患病的狗尿液中含有葡萄糖.从以上现象分析糖脂肪与氨基酸之间的互变关系，正确的是（）</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.糖和氨基酸可以转变为脂肪</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.氨基酸不可以转变为糖</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.糖与脂肪可以互变</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.三者之间完全可以互变</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+

@@ -1,0 +1,16 @@
+<!--pages/P_10_2/P_10_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.【刘心哲】某两岁男性患儿，因面色苍白伴血尿两天入院。两天前患儿食用新鲜蚕豆后出现发烧，恶心，呕吐，排浓茶色尿。呼吸急促，神志清晰，萎靡，面色苍白，巩膜黄染，肝脏肿大。经诊断为蚕豆病，蚕豆病是由哪种酶缺少而引起的？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.内酯酶</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.葡糖-6-磷酸脱氢酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.苹果酸脱氢酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.己糖激酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.葡糖-6-磷酸脱氢酶</text>
+</view>
+</view>
+

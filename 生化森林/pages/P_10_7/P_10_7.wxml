@@ -1,0 +1,16 @@
+<!--pages/P_10_7/P_10_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.反竞争性抑制剂具有的动力学特征是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.Km不变，Vmax降低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.Km不变，Vmax增高</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.Km和Vmax均降低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.Km降低，Vmax增高</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.Km和Vmax均降低</text>
+</view>
+</view>
+

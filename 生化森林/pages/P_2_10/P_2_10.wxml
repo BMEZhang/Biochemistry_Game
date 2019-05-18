@@ -1,0 +1,16 @@
+<!--pages/P_2_10/P_2_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.临床上认为抗动脉粥样硬化的“保护因子”是(  )</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.HDL</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.VLDL</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.LDL</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.IDL</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+

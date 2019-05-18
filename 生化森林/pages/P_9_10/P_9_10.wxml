@@ -1,0 +1,17 @@
+<!--pages/P_9_10/P_9_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.一儿童疑似误吞口腔温度计水银，送院急症，在急救时服用大量牛奶，之后用催吐剂使其呕吐，后症状缓解。这种解毒的原理是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.盐析</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.凝固</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.透析</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.生成不溶性蛋白盐</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.生成不溶性蛋白盐</text>
+</view>
+</view>
+
+

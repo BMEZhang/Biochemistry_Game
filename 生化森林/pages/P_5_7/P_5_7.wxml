@@ -1,0 +1,17 @@
+<!--pages/P_5_7/P_5_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.一名患者入院时出现巩膜及皮肤黄染，经检查为溶血性黄疸。以下检查结果中符合溶血性黄疸的特点的是</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.血清间接胆红素升高</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.尿胆红素增高</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.大便呈陶土色</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.尿胆素原减少</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+
+

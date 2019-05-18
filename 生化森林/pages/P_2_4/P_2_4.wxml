@@ -1,0 +1,16 @@
+<!--pages/P_2_4/P_2_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.九岁女童，通过基因检测发现有先天性中链脂酰CoA脱氢酶缺陷，那么在禁食状态下，该患者最有可能出现的状态或表现是（）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.低乳酸血症</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.酮症酸中毒</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.二元酸酸中毒</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.高乳糜微粒血症</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

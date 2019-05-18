@@ -1,0 +1,16 @@
+<!--pages/P_7_9/P_7_9.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>9.钙是人体必需的常量元素，成年人每天需要800mg的钙，维生素D有利于钙的吸收。下列补钙的途径不正确的是（）。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.经常晒太阳</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.经常饮用牛奶与豆奶 </button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>C.大量补充维生素D</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.儿童适当使用鱼肝油</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

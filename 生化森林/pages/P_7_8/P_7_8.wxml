@@ -1,0 +1,16 @@
+<!--pages/P_7_8/P_7_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>35岁女性，自述食欲不振，皮肤粗糙并出现红斑，经检查发现皮肤有鳞屑，出现对称性皮炎，感觉异常，腱反射亢进。这位患者可能患有（），因缺乏（）导致。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.癞皮病 维生素B1</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>B.癞皮病 维生素PP </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.口角炎  维生素B2</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.口角炎  维生素B6 </button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

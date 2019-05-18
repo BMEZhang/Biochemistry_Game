@@ -1,0 +1,12 @@
+<!--pages/score_M_6/score_M_6.wxml-->
+<view class='bg' >
+<view class='empty'></view>
+<view class='data'>
+<text>正确率：{{acc}}%</text>
+<text>当前养料数：{{score}}</text>
+</view>
+<view class='button'>
+<button bindtap='f0' disabled='{{a<1&&acc<90}} '>获得养料</button>
+<button bindtap='BackToM1'>返回菜单</button>
+</view>
+</view>

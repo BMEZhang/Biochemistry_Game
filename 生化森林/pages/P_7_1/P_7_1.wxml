@@ -1,0 +1,16 @@
+<!--pages/P_7_1/P_7_1.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>1.【周顺】新训中，学员张一爬战术时被铁丝网划破头皮，去医务室消完毒后，他的伤口许久都不能愈合，鲜血一直往外流，试判断他可能缺乏哪种维生素？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.维生素A</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.维生素B6</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.维生素K</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.维生素D</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

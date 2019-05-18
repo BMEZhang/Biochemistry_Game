@@ -1,0 +1,16 @@
+<!--pages/P_1_2/P_1_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.【李帅臣】小明，男，17岁，身高168cm，体重90kg，大一年级新生，在入学体检时，发现自己的空腹血糖为7.2mmol/L，在医生的建议下，进行了多项检查，发现该同学血压，血脂高，胰岛细胞抗体（ICA）、胰岛素自身抗体（IAA）检测为阴性，血浆胰岛素水平稍低，查体发现黑棘皮病，自述无多尿，多饮，多食的症状，父亲，爷爷有糖尿病病史，那么医生给出的诊断应该是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.无糖尿病</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.I型糖尿病</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>C.II型糖尿病</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.其他特殊类型糖尿病</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

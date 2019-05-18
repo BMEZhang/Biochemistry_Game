@@ -1,0 +1,16 @@
+<!--pages/P_9_8/P_9_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.蛋白质定量测定中，常利用其在280nm处的光吸收值（A280）进行计算，蛋白质吸收紫外光能力的大小，主要取决于</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.含硫氨基酸的含量</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.肽链中的肽键</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.碱性氨基酸的含量</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.芳香组氨基酸的含量</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.芳香组氨基酸的含量</text>
+</view>
+</view>
+

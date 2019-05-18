@@ -1,0 +1,16 @@
+<!--pages/P_7_7/P_7_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.某患儿两周岁，因夜间视物不清，经常眨眼，皮肤干燥就医，初步诊断为夜盲症。其致病原因是缺乏（）。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.维生素PP </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.维生素B </button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>C.维生素A </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.维生素K </button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

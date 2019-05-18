@@ -1,0 +1,8 @@
+<!--pages/exchange/exchange.wxml-->
+<view class='whole' >
+<button class='B' bindtap='f1' disabled='{{p1<1||score<100}}'>点击兑换</button>
+<button class='B' bindtap='f2' disabled='{{p2<1||score<100}}'>点击兑换</button>
+<button class='B' bindtap='f3' disabled='{{p3<1||score<100}}'>点击兑换</button>
+<button class='B' bindtap='f4' disabled='{{p3<1||score<100}}'>点击兑换</button>
+<button class='B' bindtap='f5' disabled='{{p3<1||score<100}}'>点击兑换</button>
+</view>

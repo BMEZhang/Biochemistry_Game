@@ -1,0 +1,16 @@
+<!--pages/P_10_4/P_10_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.患者，女性，23岁，因与男朋友吵架，自服敌百虫（美曲磷酯）约100ml。服毒后自觉头晕、恶心、并伴有呕吐，呕吐物有刺鼻农药味。服药后5小时，家属才发现，出现神志不清，呼之不应，刺激反应差，立即送到当地医院就诊，经检查后，医生立即给予催吐洗胃，硫酸镁导泻，阿托品、解磷定静脉注射，患者渐渐好转。最可能的诊断是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.急性氰化物中毒</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.急性有机磷中毒</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.急性苯中毒</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.急性巴比妥中毒</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.急性有机磷中毒</text>
+</view>
+</view>
+

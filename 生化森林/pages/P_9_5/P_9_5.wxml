@@ -1,0 +1,17 @@
+<!--pages/P_9_5/P_9_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.血浆中大多数蛋白质具有特殊的生物学功能，其中一种蛋白质对维持人血浆的正常渗透压十分重要，且该蛋白的减少能引起严重水肿，则这种蛋白质为</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.清蛋白</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.α-球蛋白</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.β-球蛋白</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.γ-球蛋白</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.清蛋白</text>
+</view>
+</view>
+
+

@@ -1,0 +1,17 @@
+<!--pages/P_5_8/P_5_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.一名新生儿因为发生新生儿黄疸而住院接受治疗，医生给予苯巴比妥治疗，原因是（）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.抑制胆红素的合成</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.促进胆红素的分解</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.影响生物转化的第一相反应</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.可诱导UDP-葡糖醛酸转移酶合成</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D</text>
+</view>
+</view>
+
+

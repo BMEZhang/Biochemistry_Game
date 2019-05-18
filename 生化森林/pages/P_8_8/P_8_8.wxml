@@ -1,0 +1,17 @@
+<!--pages/P_8_8/P_8_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.痛风症是因为某种代谢物沉积于关节，软组织处引起的。这种代谢物是</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.尿酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.黄嘌呤</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.尿素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.碳酸盐</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.尿酸</text>
+</view>
+</view>
+
+

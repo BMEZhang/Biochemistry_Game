@@ -1,0 +1,16 @@
+<!--pages/P_3_9/P_3_9.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>9.在有氧的条件下，哺乳动物骨骼肌细胞液中产生的NADH进入线粒体内经呼吸链氧化成水，同时产生1.5分子ATP，是通过下列哪种穿梭作用</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.苹果酸-天冬氨酸穿梭</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.α-磷酸甘油穿梭</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.柠檬酸-丙酮酸穿梭</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.丙酮酸穿梭</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.α-磷酸甘油穿梭</text>
+</view>
+</view>
+

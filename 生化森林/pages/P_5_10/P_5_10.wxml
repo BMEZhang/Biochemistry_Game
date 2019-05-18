@@ -1,0 +1,17 @@
+<!--pages/P_5_10/P_5_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.52岁的一名女性已明显发福，近日到医院做常规体检，在做超声检查时发现有胆结石，下列哪种情况可促进胆固醇结石的形成?</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.胆汁中胆固醇与胆汁酸盐失调</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.高纤维饮食</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.胆固醇溶解的降低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.胆囊收缩加快</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+
+

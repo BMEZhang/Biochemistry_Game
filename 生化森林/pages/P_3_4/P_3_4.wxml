@@ -1,0 +1,17 @@
+<!--pages/P_3_4/P_3_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.【张孝华】一婴儿出生8天后，体温不升，在35℃以下，检查后发现体核温度（肛温）低于体表温度（腋温），皮肤和皮下组织出现硬肿，皮肤呈暗红色，其位置为下肢，臀部和下腹部，无并发症，经初步判断为新生儿硬肿症。下列描述正确的是</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.该症是由于缺乏棕色脂肪组织所致</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.UCP1能够阻断电子传递过程</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.DNP是一种ATP合酶抑制剂</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.该婴儿可将质子梯度储存的能量全部以热能释放</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.该症是由于缺乏棕色脂肪组织所致</text>
+</view>
+</view>
+
+

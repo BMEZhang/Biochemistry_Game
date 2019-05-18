@@ -1,0 +1,15 @@
+<!--pages/P_2_1/P_2_1.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>1.【杨国荣】某男子因心情不佳而过量饮酒，次日早上起床后出现了恶心呕吐、尿量减少、皮肤干燥、眼球下陷等症状，并且呼吸出的气体伴有烂苹果气味，到医院经尿检发现尿酮呈强阳性，故医生诊断为酒精性酮症。请问该男子是由于酒精抑制了（   ），导致（   ）过度，而使酮体的生成过量，造成酮症。</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.糖异生，脂肪动员</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.糖异生，氨基酸分解</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.氨基酸分级，脂肪动员</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.糖异生，氨基酸分解</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>

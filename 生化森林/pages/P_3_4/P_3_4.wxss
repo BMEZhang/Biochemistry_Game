@@ -1,0 +1,22 @@
+/* pages/P_3_4/P_3_4.wxss */
+.bg{
+	width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/airwars.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.Q{
+	height: 40vh
+}
+.A{
+	height: 50vh;
+	display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+	align-items: center;
+}
+.F{
+	color: red;
+}
+.T{
+	color: green;
+}

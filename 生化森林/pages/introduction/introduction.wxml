@@ -1,0 +1,7 @@
+<!--pages/introduction/introduction.wxml-->
+<view class='back'>
+<image class='image'></image>
+<view>
+<button bindtap='ToMenu_1' style='border-color:yellowgreen' class='B' plain='true'>知道啦</button>
+</view>
+</view>

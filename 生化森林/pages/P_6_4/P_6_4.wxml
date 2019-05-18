@@ -1,0 +1,17 @@
+<!--pages/P_6_4/P_6_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.一名14岁女性患者入院前食欲好，但常无原因口渴、夜尿增多，后出现发热脱水症状，呼出气体有烂苹果味，临床表现为血糖升高，经胰岛素治疗显著，此病可诊断为（）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.一型糖尿病</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.二型糖尿病</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.糖原贮积症</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.苯丙酮尿症</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+
+

@@ -1,0 +1,17 @@
+<!--pages/P_8_9/P_8_9.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>9.5-FU的抗癌机制为</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.合成错误的DNA</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.抑制尿嘧啶的合成</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.抑制胞嘧啶的合成</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.抑制胸甘酸合成酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.抑制胸甘酸合成酶</text>
+</view>
+</view>
+
+

@@ -1,0 +1,16 @@
+<!--pages/P_1_8/P_1_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.45岁女性，因昏迷被送至急救中心，经检测血糖浓度为20mg/dL，已知她是一位糖尿病人，在其办公桌上发现了一只可注射的胰岛素笔。下列哪一条可解释其发病机制（）。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.注射后她的肝突然可以摄入葡萄糖</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>B.通过各种葡萄糖转运蛋白增加葡萄糖进入肝外组织</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.通过胰高血糖素作用，肝外组织可摄取葡萄糖</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.即使在血糖浓度低时，胰岛素仍能刺激肝摄取葡萄糖</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

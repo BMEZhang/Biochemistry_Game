@@ -1,0 +1,45 @@
+/* pages/home/home.wxss */
+.bg1{
+	width: 100vw;height: 87vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/641180415926858e.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.bg2{
+	width: 100vw;height: 87vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/572932b52101f510.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.bg3{
+	width: 100vw;height: 87vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/4caf90eff74305e5.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.bg4{
+	width: 100vw;height: 87vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/5f82264d3030f8ea.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.bg5{
+	width: 100vw;height: 87vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/253273ede139b40b.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.select{
+	display:flex;
+
+}
+.bottom{
+	height: 13vh;
+	background: rgb(100, 14, 61)
+}
+.text{
+	color: #fff
+}
+.b{
+	width: 45%;
+	color: #fff;
+	background: rgb(100, 14, 61)
+}
+.empty{
+	height: 86vh
+}

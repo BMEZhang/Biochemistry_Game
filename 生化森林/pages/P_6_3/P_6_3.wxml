@@ -1,0 +1,16 @@
+<!--pages/P_6_3/P_6_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.一名两岁男性儿童因食用新鲜蚕豆后出现发热呕吐等症状，临床表现为贫血、黄疸、血红蛋白尿。其母亲也有相同病史。可初步认定为以下哪种物质缺乏导致的遗传病？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.糖原磷酸化酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.糖原合酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.己糖激酶</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.葡糖-6-磷酸脱氢酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D</text>
+</view>
+</view>
+

@@ -1,0 +1,357 @@
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.脂肪动员的关键酶是</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.甘油三酯酶</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.脂蛋白脂肪酶</button>
+				<button bindtap='f1_T' hover-class='T' disabled='{{q_1<1}}' plain='true'>C.激素敏感性脂肪酶</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.下列中抑制脂肪分解代谢的激素是</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.胰高血糖素</button>
+				<button bindtap='f2_T' hover-class='T' disabled='{{q_2<1}}' plain='true'>B.胰岛素</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.肾上腺素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.脂肪酸β-氧化发生部位在</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3_T' hover-class='T' disabled='{{q_3<1}}' plain='true'>A.胞液和线粒体</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.内质网和线粒体</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>C内质网和胞液</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.脂肪酸β-氧化的关键酶</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.HMGCoA 合酶</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.脂酰CoA 合成酶</button>
+				<button bindtap='f4_T' hover-class='T' disabled='{{q_4<1}}' plain='true'>C.肉碱脂酰转移酶 I</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.1分子脂肪酸活化耗()个高能磷酸键</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5_T' hover-class='T' disabled='{{q_5<1}}' plain='true'>A.2</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.1</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.3</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.脂酰基进入线粒体的运载工具是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6_T' hover-class='T' disabled='{{q_6<1}}' plain='true'>A.肉碱</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.胆碱</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.脂酰载体蛋白</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.1g软脂酸（分子量为256）较1g葡萄糖（分子量为180）彻底氧化的产能效率约高多少倍</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7_T' hover-class='T' disabled='{{q_7<1}}' plain='true'>A.2.5</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.1.5</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C.3.5</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.酮体的成分不包括</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.β-羟丁酸</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.乙酰乙酸</button>
+				<button bindtap='f8_T' hover-class='T' disabled='{{q_8<1}}' plain='true'>C.草酰乙酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.酮体合成的关键酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.HMGCoA 还原酶</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.HMGCoA 裂解酶</button>
+				<button bindtap='f9_T' hover-class='T' disabled='{{q_9<1}}' plain='true'>C.HMGCoA 合成酶</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.在肝内最先合成的酮体是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.β-羟丁酸</button>
+				<button bindtap='f10_T' hover-class='T' disabled='{{q_10<1}}' plain='true'>B.乙酰乙酸</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.乙酰乙酰CoA</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.酮体不能在肝中氧化的主要原因是肝中缺乏</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11_T' hover-class='T' disabled='{{q_11<1}}' plain='true'>A.琥珀酰CoA转硫酶</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.HMGCoA 合成酶</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.HMGCoA 还原酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.脂肪酸合成的限速酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12_T' hover-class='T' disabled='{{q_12<1}}' plain='true'>A.乙酰CoA羧化酶</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.脂酰CoA合成酶</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.肉碱脂酰转移酶 I</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.下列哪种辅助因子用于脂肪酸的合成</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13_T' hover-class='T' disabled='{{q_13<1}}' plain='true'>A.NADPH</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.NADH</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>C.FADH2</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.增加脂肪酸合成的激素是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.胰高血糖素</button>
+				<button bindtap='f14_T' hover-class='T' disabled='{{q_14<1}}' plain='true'>B.胰岛素</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.肾上腺素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.下列脂肪酸中属于必需脂肪酸的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.油酸</button>
+				<button bindtap='f15_T' hover-class='T' disabled='{{q_15<1}}' plain='true'>B.亚油酸</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.软脂酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.胞液中由乙酰CoA合成一分子软脂酸需要多少分子NADPH</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.8</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.7</button>
+				<button bindtap='f16_T' hover-class='T' disabled='{{q_16<1}}' plain='true'>C.14</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.一分子软脂酸彻底氧化可净生成多少分子ATP</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.108</button>
+				<button bindtap='f17_T' hover-class='T' disabled='{{q_17<1}}' plain='true'>B.106</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.96</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.下列哪种磷脂含有胆碱</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.脑磷脂</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.心磷脂</button>
+				<button bindtap='f18_T' hover-class='T' disabled='{{q_18<1}}' plain='true'>C.卵磷脂</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.合成卵磷脂所需的活性胆碱是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19_T' hover-class='T' disabled='{{q_19<1}}' plain='true'>A.CDP-胆碱</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.CDP-乙醇胺</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.UDP-胆碱</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.下列物质是二磷脂酰甘油是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20_T' hover-class='T' disabled='{{q_20<1}}' plain='true'>A.心磷脂</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.卵磷脂</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.脑磷脂</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.甘油磷脂合成需要()活化</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.ATP</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.GTP</button>
+				<button bindtap='f21_T' hover-class='T' disabled='{{q_21<1}}' plain='true'>C.CTP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.甘油磷脂由()催化降解</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.甘油磷脂转硫酶</button>
+				<button bindtap='f22_T' hover-class='T' disabled='{{q_22<1}}' plain='true'>B.磷脂酶</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.转氨酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.酮体和胆固醇合成的共同原料是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.丙二酰CoA</button>
+				<button bindtap='f23_T' hover-class='T' disabled='{{q_23<1}}' plain='true'>B.乙酰CoA</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.乙酰乙酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.合成胆固醇的限速酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.HMGCoA合成酶</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.HMGCoA裂解酶</button>
+				<button bindtap='f24_T' hover-class='T' disabled='{{q_24<1}}' plain='true'>C.HMGCoA还原酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.人体内胆固醇的代谢主要去路是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.生成乙酰CoA</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.转变为酮体</button>
+				<button bindtap='f25_T' hover-class='T' disabled='{{q_25<1}}' plain='true'>C.生成胆汁酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.CM重要的生理功能是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26_T' hover-class='T' disabled='{{q_26<1}}' plain='true'>A.转运外源性脂类</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.转运内源性脂类</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.转运内源性胆固醇</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.只出现在CM中的载脂蛋白是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27_T' hover-class='T' disabled='{{q_27<1}}' plain='true'>A.Apo B48</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.Apo B100</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.Apo AI</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.血浆中主要运输内源性甘油三酯的脂蛋白是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.CM</button>
+				<button bindtap='f28_T' hover-class='T' disabled='{{q_28<1}}' plain='true'>B.VLDL</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.LDL</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.运输内源性胆固醇至肝外的脂蛋白主要是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29_T' hover-class='T' disabled='{{q_29<1}}' plain='true'>A.LDL</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.HDL</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.VLDL</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.血浆脂蛋白中富含Apo B100的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30_T' hover-class='T' disabled='{{q_30<1}}' plain='true'>A.LDL</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.CM</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.HDL</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.血浆脂蛋白中将肝外胆固醇转运到肝脏进行代谢的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31_T' hover-class='T' disabled='{{q_31<1}}' plain='true'>A.HDL</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.LDL</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.CM</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.HDL含量最多的载脂蛋白是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.Apo B48</button>
+				<button bindtap='f32_T' hover-class='T' disabled='{{q_32<1}}' plain='true'>B.Apo AI</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.Apo B100</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.血浆脂蛋白的组成中甘油三酯含量最高的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.VLDL</button>
+				<button bindtap='f33_T' hover-class='T' disabled='{{q_33<1}}' plain='true'>B.CM</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.IDL</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.胆固醇含量最低的脂蛋白是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.VLDL</button>
+				<button bindtap='f34_T' hover-class='T' disabled='{{q_34<1}}' plain='true'>B.CM</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.LDL</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.作为LCAT激活剂的载脂蛋白是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35_T' hover-class='T' disabled='{{q_35<1}}' plain='true'>A.Apo AI</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.Apo B48</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.Apo B100</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>
+

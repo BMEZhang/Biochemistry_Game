@@ -1,0 +1,16 @@
+<!--pages/P_3_3/P_3_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.【王宇宸】徐记家居建材城不幸发生火灾，大火蔓延，点燃了大量建材家具，产生大量CO及HCN等有毒物质，数名工作人员不幸遇难。CO中毒的机制中包括作为电子传递链中复合体Ⅳ抑制剂，CO与还原型Cyt a3 结合，阻断电子传递给O2，使细胞停止呼吸，失去生命活动，引起死亡。关于呼吸链的其他三个复合体Ⅰ、Ⅱ、Ⅲ的抑制剂顺序正确的是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.粉蝶霉素A,抗霉素A,萎锈灵</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.N3-,鱼藤酮,抗霉素A</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.异戊巴比妥,萎锈灵,粘噻唑菌醇</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.萎锈灵,鱼藤酮,N3-</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.异戊巴比妥,萎锈灵,粘噻唑菌醇</text>
+</view>
+</view>
+

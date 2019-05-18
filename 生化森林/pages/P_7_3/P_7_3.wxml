@@ -1,0 +1,16 @@
+<!--pages/P_7_3/P_7_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.【洪爽】依法服兵役是每个公民应尽的义务，为响应国家征兵的号召，某高校毕业生小坤决定参军来报效祖国。 检查合格之后，小坤如愿的当上了一名新兵。在他新兵军训期间，为配合高强度训练，小坤每天食用大量肉类，此时他应该补充  </text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A. 维生素B2</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B. 维生素PP</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C. 维生素D</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>D. 维生素B6</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D</text>
+</view>
+</view>
+

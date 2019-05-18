@@ -1,0 +1,357 @@
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.全酶是指</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1_T' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.酶蛋白—辅助因子混合物</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.酶蛋白—底物复合物</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>C.酶蛋白—抑制剂复合物</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.酶促反应中决定反应特异性的是</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.辅基</button>
+				<button bindtap='f2_T' hover-class='F' disabled='{{q_2<1}}' plain='true'>B.酶蛋白</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.金属离子</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.下列关于酶蛋白和辅助因子的叙述，错误的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3_T' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.一种辅助因子只能与一种酶蛋白结合成一种全酶</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.酶蛋白决定反应的特异性</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>C.金属离子可作为酶的辅助因子</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.金属离子作为辅助因子的作用，错误的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.传递电子</button>
+				<button bindtap='f4_T' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.作酶活性中心的结合集团参加反应</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>C.作为连接酶与底物的桥梁</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.缀合酶表现有活性的条件是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>A.辅酶单独存在</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.亚基单独存在</button>
+				<button bindtap='f5_T' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.全酶形式存在</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.关于酶的活性中心，下列正确的选项是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6_T' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.所有的酶都有活性中心</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.所有的酶活性中心都含有金属离子</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.所有的酶活性中心都含有辅助因子</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.酶分子中使底物转变为产物的基团称为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.疏水基团</button>
+				<button bindtap='f7_T' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.催化基团</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C.酸性基团</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.以下最不可能在酶活性中心参与催化反应的氨基酸残基是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8_T' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.丙氨酸</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.丝氨酸</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.谷氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.酶蛋白变性后其活性丧失是因为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9_T' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.酶蛋白的空间结构遭到破坏</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.失去了激活剂</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.酶蛋白的溶解度更低</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.酶的比活性是指</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.每秒钟每个酶分子转换底物的微摩尔数</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.一定重量的酶制剂所具有的酶活性单位数</button>
+				<button bindtap='f10_T' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.每毫克蛋白质所含的酶活性单位数</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.酶原通过蛋白酶水解激活，主要断裂的化学键是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>A.肽键</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.氢键</button>
+				<button bindtap='f11_T' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.离子键</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.酶原之所以没有活性，是因为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12_T' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.活性中心未形成或未暴露</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.缺乏酶原或辅基</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.酶原是普通的蛋白质</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.影响酶促反应速率的因素不包括</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.酶浓度</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.抑制剂</button>
+				<button bindtap='f13_T' hover-class='F' disabled='{{q_13<1}}' plain='true'>C.变性剂</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.关于酶促反应特点，错误的描述是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14_T' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.酶在生物体内催化的反应都不可逆</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.酶能加速化学反应</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.酶对所催化的底物有选择性</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.酶促反应的初速率</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.与【S】无关</button>
+				<button bindtap='f15_T' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.与【E】成正比</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.与【I】成正比</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.在研究酶促反应时要测定酶促反应的初速率，其目的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16_T' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.防止各种干扰因素对酶促反应影响</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.为了节省反应时间</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.为了节省酶的用量</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.一个酶促反应的最大反应速率</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.随底物浓度的改变而改变</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>B.不受体系中的杂质影响</button>
+				<button bindtap='f17_T' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.是酶完全被底物饱和时的反应速率</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.在酶浓度不变的条件下以反应速度v对底物【s】作图，其图像为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.S型曲线</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.钟罩型曲线</button>
+				<button bindtap='f18_T' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.矩形双曲线</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.关于酶的Km值，叙述错误的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.与酶的结构有关</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.与反应环境的pH值有关</button>
+				<button bindtap='f19_T' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.与酶的浓度有关</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.Km是指</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>A.速率为最大反应速率一半时酶浓度</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.速率为最大反应速率一半时pH值</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.速率为最大反应速率一半时底物浓度</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.有关酶与温度的关系，错误的论述是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21_T' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.酶的最适温度是酶的特征性常数</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.温度对酶促反应速率具有双重影响</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>C.酶制剂应在低温下保存</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.为了防止酶失活，最好将酶制剂存放于</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.室温曝光</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>B.最适温度</button>
+				<button bindtap='f22_T' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.低温避光</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.酶的竞争性抑制剂的动力学特点是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.Vmax减小，Km不变</button>
+				<button bindtap='f23_T' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.Vmax不变，Km增大</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.Vmax不变，Km减小</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.反竞争性抑制剂具有的动力学特征是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.Km不变，Vmax降低</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.Km不变，Vmax增高</button>
+				<button bindtap='f24_T' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.Km和Vmax均降低</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.下列关于核酶叙述正确的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.即核酸酶</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.本质是蛋白质</button>
+				<button bindtap='f25_T' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.本质是核糖核酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.非竞争性抑制剂存在时，酶促反应动力学的特点是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.表观Km值不变，Vmax增大</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.表观Km值和Vmax均降低</button>
+				<button bindtap='f26_T' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.表观Km值不变，Vmax降低</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.下列关于酶活性中心说法正确的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.所有酶的活性中心都含有辅酶</button>
+				<button bindtap='f27_T' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.所有酶都有活性中心</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.所有酶的活性中心都含有金属离子</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.在酶的分离纯化中最理想的实验结果是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28_T' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.比活性最大</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.纯化倍数高、蛋白含量低</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.蛋白质的回收率最高</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.酶原激活的生理意义是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.加速代谢</button>
+				<button bindtap='f29_T' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.促进生长</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.避免自身损伤</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.酶的共价修饰调节中最常见的修饰方式是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30_T' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.磷酸化/脱磷酸化</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.甲基化/脱甲基化</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.乙酰化/脱乙酰化</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.有机汞化合物能抑制</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31_T' hover-class='F' disabled='{{q_31<1}}' plain='true'>A.巯基酶</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.胆碱酯酶</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.羟基酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.米氏常数Km可以用来度量</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.酶的稳定性</button>
+				<button bindtap='f32_T' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.酶和底物亲和力大小</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.酶促反应速度大小</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.全酶是指</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.酶的无活性前体</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>B.一种酶——抑制剂复合物</button>
+				<button bindtap='f33_T' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.一种需要辅助因子的酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.酶具有高效催化能力的原因是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.酶能改变化学反应的平衡点</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.酶能提高反应物分子的活化能</button>
+				<button bindtap='f34_T' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.酶能降低反应的活化能</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.酶原是酶的（ ）前体</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>A.无活性</button>
+				<button bindtap='f35_T' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.有活性</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.降低活性</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>
+

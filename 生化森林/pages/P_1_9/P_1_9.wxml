@@ -1,0 +1,16 @@
+<!--pages/P_1_9/P_1_9.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>9.55岁男性，表现出书写困难，运动能力下降等，就诊后发现肌组织易疲劳，并伴有乳酸增加和血糖下降的现象，（）是最好的治疗药物。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.延胡索酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.柠檬酸</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>C.草酰乙酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.琥珀酸</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

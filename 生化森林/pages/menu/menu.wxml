@@ -1,0 +1,7 @@
+<view class='whole' >
+<view class='empty'></view>
+<view class='down'>
+<button bindtap="ToIntroduction" class='B'>Play</button>
+<button bindtap='ToHome' class='B'>Home</button>
+</view>
+</view>

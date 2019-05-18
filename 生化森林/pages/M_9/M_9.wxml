@@ -1,0 +1,357 @@
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.某一溶液中蛋白质的百分含量为45%，此溶液的蛋白质氮的百分浓度为</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.6.7%</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.8.3%</button>
+				<button bindtap='f1_T' hover-class='F' disabled='{{q_1<1}}' plain='true'>C.7.2%</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.下列氨基酸为酸性氨基酸的是</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2_T' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.天冬氨酸</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>B.甘氨酸</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.丝氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.下列氨基酸为碱性氨基酸的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.酪氨酸</button>
+				<button bindtap='f3_T' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.组氨酸</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>C.丙氨酸</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.下列含有两个羧基的氨基酸是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4_T' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.天冬氨酸</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.赖氨酸</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>C.甘氨酸</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.下列哪一种氨基酸是亚氨基酸</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>A.亮氨酸</button>
+				<button bindtap='f5_T' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.脯氨酸</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.丝氨酸</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.下列方法不能用于蛋白质含量测定的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.茚三酮反应</button>
+				<button bindtap='f6_T' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.透析</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.双缩脲反应</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.构成蛋白质的氨基酸均属L-型，除了</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.丙氨酸</button>
+				<button bindtap='f7_T' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.甘氨酸</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C.亮氨酸</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.下列情况下蛋白质不一定变性的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.蛋白质凝固</button>
+				<button bindtap='f8_T' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.蛋白质沉淀</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.酒精消毒</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.维持蛋白质一级结构的主要化学键是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.离子键</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.氢键</button>
+				<button bindtap='f9_T' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.肽键</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.下列不属于蛋白质二级结构的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10_T' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.结构域</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.β-折叠</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.Ω-环</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.以下不参与维持蛋白质三级结构的作用力是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>A.氢键</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.范德华力</button>
+				<button bindtap='f11_T' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.肽键</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.关于蛋白质分子三级结构的描述，其中错误的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12_T' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.有三级结构多肽链都有生物学活性</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.天然蛋白质分子均有这种结构</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.亲水基团聚集在三级结构的表面</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.下列蛋白中不能辅助、参与蛋白质折叠的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13_T' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.血红蛋白</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.热休克蛋白</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>C.伴侣蛋白 </button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.具有四级结构的蛋白质特征是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.依赖肽键维系四级结构的稳定性</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.每条多肽链都具有独立生物学活性</button>
+				<button bindtap='f14_T' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.由两条或以上有三级结构的多肽链组成</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.变性蛋白质的主要特点是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15_T' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.生物学活性丧失</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.粘度下降</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.容易被盐析出现沉淀</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.以下哪种蛋白质浓度测定方法与蛋白质理化性质无关</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.茚三酮反应</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.Lowry法</button>
+				<button bindtap='f16_T' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.凯氏定氮法</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.人体内蛋白质平均等电点接近</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17_T' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.5.0</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>B.5.5</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.6.0</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.以下关于蛋白质等电点的描述正确的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.随环境pH而改变</button>
+				<button bindtap='f18_T' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.蛋白质解离成正、负离子趋势相等</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.蛋白质不带极性</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.蛋白质胶体的直径范围是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.0.1-50nm</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.50-200nm</button>
+				<button bindtap='f19_T' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.1-100nm</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.蛋白质变性以后的特点不包括</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>A.黏度增加</button>
+				<button bindtap='f20_T' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.容易发生结晶</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.溶解度降低</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.蛋白质变性时发生断裂的键不包括</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.范德华力</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.二硫键和氢键</button>
+				<button bindtap='f21_T' hover-class='F' disabled='{{q_21<1}}' plain='true'>C.肽键</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.利用分子筛原理来分离蛋白质的技术是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.离子交换层析</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>B.透析</button>
+				<button bindtap='f22_T' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.凝胶过滤</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.下面哪种方法沉淀出来的蛋白质具有生物学活性</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23_T' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.盐析</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.重金属盐</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.强酸、强碱</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.加入下列试剂不会导致蛋白质变性的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24_T' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.硫酸铵</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.尿素</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.Cu2+</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.利用聚丙烯酸胺凝胶电泳测定蛋白质分子量时应该加入的表面活性剂是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.β-巯基乙醇</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.尿素</button>
+				<button bindtap='f25_T' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.SDS</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.以下哪一项分离纯化技术与蛋白质颗粒大小无关</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.凝胶过滤层析</button>
+				<button bindtap='f26_T' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.离子交换层析</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.超速离心</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.Lowry法测定蛋白质浓度的原理是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.茚三酮反应</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.凯氏定氮法</button>
+				<button bindtap='f27_T' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.双缩脲反应</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.不属于蛋白质理化性质的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.两性解离特性</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.各有特定的等电点</button>
+				<button bindtap='f28_T' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.具有红外吸收性质</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.导致蛋白质既变性又沉淀的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.生理盐水</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.低温乙醇</button>
+				<button bindtap='f29_T' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.重金属离子</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.导致蛋白质沉淀但不变性的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.生理盐水</button>
+				<button bindtap='f30_T' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.低温乙醇</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.重金属离子</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.导致蛋白质变性但不沉淀的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31_T' hover-class='F' disabled='{{q_31<1}}' plain='true'>A.稀酸加热</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.生理盐水</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.重金属离子</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.导致蛋白质凝固的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.稀酸加热</button>
+				<button bindtap='f32_T' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.强碱环境加热煮沸</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.低温乙醇</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.蛋白质的特征吸收峰波长是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.240nm</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>B.260nm</button>
+				<button bindtap='f33_T' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.280nm</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.蛋白质与双缩脲试剂反应呈</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34_T' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.紫红色</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.蓝紫色</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.蓝色</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.蛋白质和氨基酸与茚三酮试剂反应呈</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>A.紫红色</button>
+				<button bindtap='f35_T' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.蓝紫色</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.淡黄色</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>
+

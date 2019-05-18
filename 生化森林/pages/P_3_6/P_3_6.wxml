@@ -1,0 +1,16 @@
+<!--pages/P_3_6/P_3_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.【温睿增】2017年12月1曰，天津城市大厦发生火灾，起火物质为堆放在电梯间里的杂物和废弃装修材料。由于施工企业为施工方便擅自放空消防木箱储存用水，导致消防设施未能发挥作用。因为装修材料中含大量N和C，高温下生成了HCN，导致伤员出现CN-中毒，对于以下说法正确的是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.CN-可结合氧化型Cyta,阻断电子Cyta到CuB-Cyta3传递</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.CN-是复合体III抑制剂</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.CN-是呼吸链抑制剂,阻断电子传递</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.二硝基苯酚与CN-是同类抑制剂,作用机理相同</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.CN-是呼吸链抑制剂,阻断电子传递</text>
+</view>
+</view>
+

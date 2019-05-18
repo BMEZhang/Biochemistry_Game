@@ -1,0 +1,16 @@
+<!--pages/P_8_6/P_8_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.患者，男，51岁，近3年来出现关节炎症状和尿路结石，进食肉类食物时，病情加重。该患者发生的疾病涉及的代谢途径是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.脂代谢</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.嘌呤核苷酸代谢</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.嘧啶核苷酸代谢</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.氨基酸代谢</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.嘌呤核苷酸代谢</text>
+</view>
+</view>
+

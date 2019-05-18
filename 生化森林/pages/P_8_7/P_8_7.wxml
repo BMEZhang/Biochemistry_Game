@@ -1,0 +1,17 @@
+<!--pages/P_8_7/P_8_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.常用于治疗痛风症的药物是</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.别嘌呤醇</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.阿托品</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.青霉素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.胰岛素</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.别嘌呤醇</text>
+</view>
+</view>
+
+

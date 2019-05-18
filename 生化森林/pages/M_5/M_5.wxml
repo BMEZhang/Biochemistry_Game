@@ -1,0 +1,355 @@
+
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.血红素生成过程中主要调节因素是(   )</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.磷酸比哆醛</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.胆红素</button>
+				<button bindtap='f1_T' hover-class='T' disabled='{{q_1<1}}' plain='true'>C.ALA合酶</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.参与生物转化中结合反应的是</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.胆红素</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>B.血红素</button>
+				<button bindtap='f2_T' hover-class='T' disabled='{{q_2<1}}' plain='true'>C.葡糖醛酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.在血清中与清蛋白结合而运输的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.血红素</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.胆红素</button>
+				<button bindtap='f3_T' hover-class='T' disabled='{{q_3<1}}' plain='true'>C.磷酸吡哆醛</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.下列属于结合胆红素的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.牛磺胆酸</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.胆色素</button>
+				<button bindtap='f4_T' hover-class='T' disabled='{{q_4<1}}' plain='true'>C.血胆红素</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.下列属于初级胆汁酸的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5_T' hover-class='T' disabled='{{q_5<1}}' plain='true'>A.牛磺胆酸</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.肝胆红素</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.脱氧胆酸</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.结合胆红素又称为()</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.血胆红素</button>
+				<button bindtap='f6_T' hover-class='T' disabled='{{q_6<1}}' plain='true'>B.直接胆红素</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.胆红素-清蛋白</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.在肝中与胆汁酸结合的化合物是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.单胺氧化酶</button>
+				<button bindtap='f7_T' hover-class='T' disabled='{{q_7<1}}' plain='true'>B.甘氨酸</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C.UDPGA</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.下列哪些物质具有肠肝循环？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8_T' hover-class='T' disabled='{{q_8<1}}' plain='true'>A.胆汁酸</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.胆红素</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.血红素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.下列哪些下列哪些反应属于生物转化第二相反应？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9_T' hover-class='T' disabled='{{q_9<1}}' plain='true'>A.硫酸结合反应</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.氧化反应</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.水解反应</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.下列哪些化合物可与胆汁酸结合？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10_T' hover-class='T' disabled='{{q_10<1}}' plain='true'>A.甘氨酸</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.谷氨酸</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.SAM</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.下列关于胆汁酸的描述正确的是。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11_T' hover-class='T' disabled='{{q_11<1}}' plain='true'>A.胆汁酸具有亲水和亲脂的特性。</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.胆汁酸亲水集团在分子内部，因此表现为疏水性。</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.胆汁酸可促进胆固醇析出。</button>
+		</view>
+	</view>
+  <view class='E'>
+		<view class='Q'>
+		<text>12.下列关于胆汁酸的描述错误的是。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.胆汁酸在肝由胆固醇合成。</button>
+				<button bindtap='f12_T' hover-class='T' disabled='{{q_12<1}}' plain='true'>B.胆汁酸可代谢转变为胆色素。</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.胆汁酸经肠肝循环被重吸收。</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.胆汁固体成分中含量最多的是。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.胆固醇</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.胆色素</button>
+				<button bindtap='f13_T' hover-class='T' disabled='{{q_13<1}}' plain='true'>C.胆汁酸盐</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.生成结合胆汁酸的反应需要结合哪种物质？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.硫酸</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.氨基酸</button>
+				<button bindtap='f14_T' hover-class='T' disabled='{{q_14<1}}' plain='true'>C.甘氨酸或牛磺酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.胆汁酸合成的场所是()</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.肾</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.胆囊 </button>
+				<button bindtap='f15_T' hover-class='T' disabled='{{q_15<1}}' plain='true'>C.肝</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.胆红素合成的步骤是(）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.胆素原,ALA,尿卟啉原III,血红素</button>
+				<button bindtap='f16_T' hover-class='T' disabled='{{q_16<1}}' plain='true'>B.ALA,胆素原,尿卟啉原III,血红素</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.胆素原,尿卟啉原III,ALA,血红素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.维生素B6缺乏可影响下列哪种物质的合成？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.细胞色素</button>
+				<button bindtap='f17_T' hover-class='T' disabled='{{q_17<1}}' plain='true'>B.血红素</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.酮体</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.铅中毒可以引起(  )</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18_T' hover-class='T' disabled='{{q_18<1}}' plain='true'>A.血红素合成减少</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.尿卟啉合成增加</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.琥珀酰辅酶a减少</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.下列物质中能够抑制血红素合成的是(  )</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19_T' hover-class='T' disabled='{{q_19<1}}' plain='true'>A.高铁血红素</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.谷胱甘肽</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.促红细胞生成素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.正常人尿中出现的色素是( )</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>A.胆红素</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.血红素</button>
+				<button bindtap='f20_T' hover-class='T' disabled='{{q_20<1}}' plain='true'>C.胆素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.能合成血红素的细胞是？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.白细胞</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.血小板</button>
+				<button bindtap='f21_T' hover-class='T' disabled='{{q_21<1}}' plain='true'>C.网织红细胞</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.下列哪种物质是由肠道细菌作用的产物?</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.胆红素</button>
+				<button bindtap='f22_T' hover-class='T' disabled='{{q_22<1}}' plain='true'>B.脱氧胆酸</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.鹅脱氧胆酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.血中胆红素的主要运输形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.胆红素——氨基酸</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.胆红素——葡糖醛酸脂</button>
+				<button bindtap='f23_T' hover-class='T' disabled='{{q_23<1}}' plain='true'>C.胆红素——清蛋白</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.胆红素的毒性主要表现在（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.胃肠道反应</button>
+				<button bindtap='f24_T' hover-class='T' disabled='{{q_24<1}}' plain='true'>B.神经系统毒性</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.肾毒性</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.血中哪一种胆红素增加会在尿中出现胆红素？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25_T' hover-class='T' disabled='{{q_25<1}}' plain='true'>A.结合胆红素</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.肝前胆红素</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.未结合胆红素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.下列是葡糖醛酸的供体的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.甘氨酸</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.7α—羟化酶</button>
+				<button bindtap='f26_T' hover-class='T' disabled='{{q_26<1}}' plain='true'>C.UDPGA</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.下列有关血红素说法错误的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.是含铁的卟啉化合物</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.可分解成胆红素</button>
+				<button bindtap='f27_T' hover-class='T' disabled='{{q_27<1}}' plain='true'>C.合成的主要部位在成熟红细胞</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.下列哪一项属于非营养物质（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28_T' hover-class='T' disabled='{{q_28<1}}' plain='true'>A.类固醇激素</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.脂酰CoA</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.维生素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.下列哪一项属于生物转化</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.甘油磷脂的生成</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.糖异生</button>
+				<button bindtap='f29_T' hover-class='T' disabled='{{q_29<1}}' plain='true'>C.结合胆红素的生成</button>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.下列属于次级胆汁酸的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30_T' hover-class='T' disabled='{{q_30<1}}' plain='true'>A.脱氧胆酸</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.牛黄胆酸</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.鹅脱氧胆酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.肝细胞对胆红素生物转化的实质是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31_T' hover-class='T' disabled='{{q_31<1}}' plain='true'>A.增加胆红素分子内氢键的极性，利于排泄</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.使胆红素与Y蛋白结合</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.增强毛细胆管膜上载体转运系统</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.胆红素与清蛋白结合后可以（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32_T' hover-class='T' disabled='{{q_32<1}}' plain='true'>A.限制其进入细胞</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.改变其生物学活性</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.增加其溶解度利于排出</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.参与生物转化第一相反应的辅酶有（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.泛酸</button>
+				<button bindtap='f33_T' hover-class='T' disabled='{{q_33<1}}' plain='true'>B.NAD+</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.硫辛酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.下列那些不属于阻塞性黄疸的特征</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.血中间接胆红素无明显改变</button>
+				<button bindtap='f34_T' hover-class='T' disabled='{{q_34<1}}' plain='true'>B.尿胆红素检查呈阴性</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.尿胆素原降低</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.催化胺类氧化脱氨基的酶是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>A. 7α—羟化酶</button>
+				<button bindtap='f35_T' hover-class='T' disabled='{{q_35<1}}' plain='true'>B.单胺氧化酶</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.单加氧酶</button>
+	 </view>
+	 </view>
+
+</view>
+<button class='b' bindtap='ToScore' >完成</button>

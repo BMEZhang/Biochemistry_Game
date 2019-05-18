@@ -1,0 +1,12 @@
+<!--pages/score_P/score_P.wxml-->
+<view class='bg' >
+<view class='empty'></view>
+<view class='data'>
+<text>正确率：{{acc}}%</text>
+<text>当前养料数：{{score}}</text>
+</view>
+<view class='button'>
+<button bindtap='f0' wx:if="{{a>0&&acc>89}}" >获得养料</button>
+<button bindtap='BackToM1'>返回菜单</button>
+</view>
+</view>

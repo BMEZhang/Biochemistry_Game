@@ -1,0 +1,356 @@
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.人体活动的主要供能物质是</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.GTP</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.葡萄糖</button>
+				<button bindtap='f1_T' hover-class='F' disabled='{{q_1<1}}' plain='true'>C.ATP</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.呼吸链存在于</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.线粒体外膜</button>
+				<button bindtap='f2_T' hover-class='F' disabled='{{q_2<1}}' plain='true'>B.线粒体内膜</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.细胞膜</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.呼吸链中不具有质子泵功能的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3_T' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.复合体Ⅱ</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.复合体Ⅰ</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>C.复合体Ⅳ</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.细胞色素是一类含(  )辅基的蛋白质</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.胆红素</button>
+				<button bindtap='f4_T' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.血红素</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>C.色素</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.下列只传递电子的物质是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>A.NAD</button>
+				<button bindtap='f5_T' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.Cyt</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.CoQ</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.可将电子直接传递给氧的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.Cytb</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.Cytc</button>
+				<button bindtap='f6_T' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.Cytaa3</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.含有烟酰胺的物质是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7_T' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.NAD+</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.泛醌</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C.FAD</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.调节氧化磷酸化的主要因素是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8_T' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.ADP/ATP比值</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.P/O比值</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.甲状腺素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.呼吸链中可被CO抑制的成分是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.Cytc</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.FAD</button>
+				<button bindtap='f9_T' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.Cytaa3</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.CO抑制</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.苹果酸脱氢酶</button>
+				<button bindtap='f10_T' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.细胞色素C氧化酶</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.琥珀酸-CoQ还原酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.下列哪种维生素参与构成呼吸链</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11_T' hover-class='F' disabled='{{q_11<1}}' plain='true'>A.维生素B2</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.维生素B1</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.维生素D</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.哪种物质是解偶联剂</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.一氧化碳</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.鱼藤酮</button>
+				<button bindtap='f12_T' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.二硝基苯酚</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.新生儿的褐色脂肪组织可以产热，这是因为解偶联蛋白具有什么性质</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.阻断呼吸链的电子传递</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.抑制质子泵</button>
+				<button bindtap='f13_T' hover-class='F' disabled='{{q_13<1}}' plain='true'>C.使质子电化学梯度丧失</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.能在线粒体内膜自由移动，消除电化学梯度的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.鱼藤酮</button>
+				<button bindtap='f14_T' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.DNP</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.寡霉素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.可抑制ATP合酶F0 单位的物质是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.抗霉素A</button>
+				<button bindtap='f15_T' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.寡霉素</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.鱼藤酮</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.NADH氧化呼吸链的组分不包括</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16_T' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.FMN</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.Fe-S</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.Cyt c</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.琥珀酸氧化呼吸链的组分不包括</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.Fe-S</button>
+				<button bindtap='f17_T' hover-class='F' disabled='{{q_17<1}}' plain='true'>B.FAD</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.Cyt c</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.下列哪种物质脱下的氢不进入NADH呼吸链</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.丙酮酸</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.谷氨酸</button>
+				<button bindtap='f18_T' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.脂酰CoA</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.由琥珀酸脱下的一对氢，经呼吸链氧化可产生</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19_T' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.2分子ATP和1分子水</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.1分子ATP和1分子水</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.2分子ATP和2分子水</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.一分子丙酮酸彻底氧化生成H2O和CO2可产生几分子ATP</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20_T' hover-class='F' disabled='{{q_20<1}}' plain='true'>A.15</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.3</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.12</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.呼吸链中细胞色素排列顺序是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21_T' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.b→c1→c→aa3→O2</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.b→c→c1→aa3→O2</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>C.c→c1→b→aa3→O2</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.体内ATP生成的主要方式是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.底物水平磷酸化</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>B.柠檬酸循环</button>
+				<button bindtap='f22_T' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.氧化磷酸化</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.肌肉和大脑能量的储存形式是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.磷酸肌醇</button>
+				<button bindtap='f23_T' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.磷酸肌酸</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.ATP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.α-磷酸甘油穿梭系统主要发生在</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.脑和肝</button>
+				<button bindtap='f24_T' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.脑和骨骼肌</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.骨骼肌和肝</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.苹果酸-天冬氨酸穿梭系统主要发生在</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.肝和脑</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.脑和心肌</button>
+				<button bindtap='f25_T' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.肝和心肌</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.下列哪种氨基酸参与了苹果酸穿梭过程</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.Glu</button>
+				<button bindtap='f26_T' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.Asp</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.Gly</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.胞液中α-磷酸甘油脱氢酶的辅酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27_T' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.NAD+</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.FAD</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.NADPH</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.线粒体中α-磷酸甘油脱氢酶的辅基是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.NAD+</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.NADPH</button>
+				<button bindtap='f28_T' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.FAD</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.不含血红素的蛋白质是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29_T' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.铁硫蛋白</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.过氧化氢酶</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.肌红蛋白</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.下列哪种化合物中不含高能磷酸键</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.磷酸肌酸</button>
+				<button bindtap='f30_T' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.1,6-双磷酸果糖</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.二磷酸腺苷</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.琥珀酸氧化呼吸链的氧化磷酸化P/O比值约为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>A.2.5</button>
+				<button bindtap='f31_T' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.1.5</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.3.5</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.下列哪种物质可以自由透过线粒体膜</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32_T' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.磷酸二羟丙酮</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.乙酰CoA</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.草酰乙酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.不参与呼吸链组分的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.Cytaa3</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>B.NADH</button>
+				<button bindtap='f33_T' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.NADPH</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.下列哪种物质脱下的一对氢经呼吸链传递后，其P/O比值约为3</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.维生素C</button>
+				<button bindtap='f34_T' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.3-磷酸甘油醛</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.琥珀酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.下列哪种物质不是高能化合物</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35_T' hover-class='F' disabled='{{q_35<1}}' plain='true'>A.3-磷酸甘油醛</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.磷酸肌酸</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.乙酰CoA</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>

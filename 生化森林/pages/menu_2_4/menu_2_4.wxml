@@ -1,0 +1,11 @@
+<!--pages/menu_2_4/menu_2_4.wxml-->
+<view class='b' >
+<button bindtap='Back' size='mini' plain='true'>返回</button>
+<text>氨基酸代谢</text>
+<view class='whole'>
+<button bindtap='ToM_1' class='B' style="font-style:italic" plain='true'>Mountaineering Club
+</button>
+<button bindtap='ToP_1_1' class='B' style="font-style:italic" plain='true'>Air Wars
+</button>
+</view>
+</view>

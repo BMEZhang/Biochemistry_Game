@@ -1,0 +1,16 @@
+<!--pages/P_2_7/P_2_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.实验饲养动物时，若断奶后的大鼠仅饲以碳水化合物和蛋白质，那么将引起该动物何种物质缺乏？</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.前列腺素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.甘油三酯</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.油酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.酮体</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+

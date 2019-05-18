@@ -1,0 +1,16 @@
+<!--pages/P_10_3/P_10_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.某患者已检查出有细菌感染，医生建议服用磺胺类药物，磺胺药的化学结构与对氨基苯甲酸（PABA）相似，影响了二氢叶酸的合成，因而使细菌生长和繁殖受到抑制，该抑制作用为</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.竞争性抑制作用</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.非竞争性抑制作用</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.反竞争性抑制作用</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.可逆性抑制作用</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.竞争性抑制作用</text>
+</view>
+</view>
+

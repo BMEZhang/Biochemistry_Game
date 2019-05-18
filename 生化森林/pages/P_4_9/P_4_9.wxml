@@ -1,0 +1,16 @@
+<!--pages/P_4_9/P_4_9.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>9.【屈龙飞】常某，43岁，近两个月内天天坚持高蛋白饮食，最近出现昏迷、呕吐等症状，经医院检查后发现血氨浓度为300μmol/L（正常值为47-65μmol/L），请问下列哪一项原因不会导致血氨浓度升高</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.肠道偏碱性</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.精氨酸代琥珀酸合成酶活性过低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.氨基甲酰磷酸合成酶I（CPS-1）活性过低</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.N-乙酰谷氨酸（AGA）含量偏高</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.N-乙酰谷氨酸（AGA）含量偏高</text>
+</view>
+</view>
+

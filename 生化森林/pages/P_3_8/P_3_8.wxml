@@ -1,0 +1,16 @@
+<!--pages/P_3_8/P_3_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.向离体完整的线粒体中加入一化合物，此时测定其基质中无ATP的生成但耗氧量显著增加，这一化合物可能是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.呼吸链抑制剂</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.呼吸链组成成分</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.解偶联剂</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.氧化磷酸化抑制剂</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.解偶联剂</text>
+</view>
+</view>
+

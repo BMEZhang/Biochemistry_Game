@@ -1,0 +1,8 @@
+<!--pages/exchanged/exchanged.wxml-->
+<view class='bg' >
+<image class='a' wx:if="{{p1<1}}" bindtouchstart='timestart' bindtouchend='timeend' bindtap='saveImg' ></image>
+<image class='b' wx:if="{{p2<1}}" ></image>
+<image class='c' wx:if="{{p3<1}}" ></image>
+<image class='d' wx:if="{{p4<1}}" ></image>
+<image class='e' wx:if="{{p5<1}}" ></image>
+</view>

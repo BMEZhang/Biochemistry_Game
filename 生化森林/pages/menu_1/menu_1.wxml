@@ -1,0 +1,19 @@
+<!--pages/menu_1/menu_1.wxml-->
+<view class='bg' >
+<view>
+<button bindtap='ToMenu' size='mini' plain='true'>BACK</button>
+</view>
+<view class='whole'>
+<button bindtap='ToMenu_2' class='B'>糖代谢</button>
+<button bindtap='ToMenu_22' class='B'>脂代谢</button>
+<button bindtap='ToMenu_23' class='B'>生物氧化</button>
+<button bindtap='ToMenu_24' class='B'>氨基酸代谢</button>
+<button bindtap='ToMenu_25' class='B'>非营养物质代谢</button>
+<button bindtap='ToMenu_26' class='B'>物质代谢整合与调节</button>
+<button bindtap='ToMenu_27' class='B'>维生素与无机盐</button>
+<button bindtap='ToMenu_28' class='B'>核苷酸代谢</button>
+<button bindtap='ToMenu_29' class='B'>蛋白质</button>
+<button bindtap='ToMenu_210' class='B'>酶
+</button>
+</view>
+</view>

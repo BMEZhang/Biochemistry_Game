@@ -1,0 +1,16 @@
+<!--pages/P_4_8/P_4_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.【卢涛】李军是一名体育生，但是他身材在同学之中比较瘦弱，所以他想通过食用蛋白粉来增加体重。李军按照说明书服用两周后没有看到很好的效果，急功近利的李军想着吃得越多效果越好就加大了每日蛋白粉的摄入量，长期服用后李军的身材越来越好，但是李军发现自己食欲下降，呕吐现象频发，并且贫血症状越来越严重，经医院检查发现李军患了尿毒症。请问尿素合成原料中的两分子氨一个来自游离氨，另一个来自哪里？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.精氨酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.鸟氨酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.瓜氨酸</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.天冬氨酸</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.天冬氨酸</text>
+</view>
+</view>
+

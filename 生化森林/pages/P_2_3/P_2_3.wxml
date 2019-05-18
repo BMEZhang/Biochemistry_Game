@@ -1,0 +1,16 @@
+<!--pages/P_2_3/P_2_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.【宋世菊】疑难杂症在令医生痛苦不已的同时，却能在冥冥之中给科学家以启迪。从三岁起，约翰·戴斯普塔多处皮肤出现脂肪瘤，经检验，医生发现他血液中的胆固醇含量远远高于正常人，调查后约翰被确诊为家族性高胆固醇血症（发病率大约为百万分之一）。从而发现了家族性高胆固醇血症的发病机制是LDL受体的缺乏，从而为此类疾病的治疗开启了崭新的大门。请你猜想，下面哪种组织器官LDL受体的缺乏影响最大（）</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.肝</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.肾脏 </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.睾丸 </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.卵巢</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+

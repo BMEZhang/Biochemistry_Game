@@ -1,0 +1,17 @@
+<!--pages/P_9_9/P_9_9.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>9.中性盐对球状蛋白质的溶解度有显著影响，当盐浓度增加到一定程度的时候，蛋白质会出现沉淀，这是因为</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.降低水溶液的介电常数</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.调节蛋白质溶液的等电点</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.中和表面电荷及破坏水化膜</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.与蛋白质形成不溶性蛋白盐</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.中和表面电荷及破坏水化膜</text>
+</view>
+</view>
+
+

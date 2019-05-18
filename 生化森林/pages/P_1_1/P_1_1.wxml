@@ -1,0 +1,15 @@
+<!--pages/P_1_1/P_1_1.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>1.【李阿海】 1821年，一代传奇拿破仑去世，起初人们普遍认为拿破仑死于胃癌。然而，1982年，一位瑞典的医生在检测拿破仑的头发时发现，拿破仑体内砷含量是正常人的13倍。这就是说，拿破仑死于小剂量砒霜慢性中毒。众所周知，砒霜是一种剧毒物质。其生化作用原理是与人体细胞代谢过程中的关键酶结合，中断代谢过程。那么这种酶是什么呢?</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A. 丙酮酸羧化酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B. 丙酮酸激酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.磷酸果糖激酶-1</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>D.α—酮戊二酸脱氢酶复合体</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D</text>
+</view>
+</view>

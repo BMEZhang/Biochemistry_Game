@@ -1,0 +1,16 @@
+<!--pages/P_6_1/P_6_1.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>1.【徐爽】62岁的沈女士是一名肝肿瘤和胆管癌的患者,因馋嘴而没有戒口,一连吃了六个大闸蟹，令肝功能未能负荷,昏倒入昏倒入重症监护室。请问该症状主要是由肝的哪方面功能出现障碍引起的。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.肝的糖代谢动能</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.肝的脂代谢功能</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.肝的蛋白质代谢功能</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.肝的激素代谢功能</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

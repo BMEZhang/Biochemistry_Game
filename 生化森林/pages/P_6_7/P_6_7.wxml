@@ -1,0 +1,17 @@
+<!--pages/P_6_7/P_6_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.细胞水平的调节不包括（）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.变构调节</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.激素调节</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.酶合成调节</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.酶降解调节</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+
+

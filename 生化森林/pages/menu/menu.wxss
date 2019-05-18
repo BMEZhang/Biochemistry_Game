@@ -1,0 +1,21 @@
+.B{
+	width: 60%;
+	color: yellow;
+	background:yellowgreen 
+}
+.whole{
+	width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/24/a.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+
+}
+.down{
+	height: 30vh;
+	display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.empty{
+ height: 60vh
+}

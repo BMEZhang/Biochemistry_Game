@@ -1,0 +1,17 @@
+<!--pages/P_5_6/P_5_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.许多运动员为了提高运动成绩而使用兴奋剂。挪威前著名自行车运动员斯特芬就曾使用人工合成的促红细胞生成素，其原理是（）</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.诱导ALA合酶的合成</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.抑制血红素分解</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.诱导亚铁螯合酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.诱导ALA脱水酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+
+

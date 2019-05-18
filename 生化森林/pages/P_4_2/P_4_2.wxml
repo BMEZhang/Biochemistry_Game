@@ -1,0 +1,16 @@
+<!--pages/P_4_2/P_4_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.下列哪种酶在心肌梗死时血清中的活性可见升高</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.ALT</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.AST</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.CK</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.LDH</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.AST</text>
+</view>
+</view>
+

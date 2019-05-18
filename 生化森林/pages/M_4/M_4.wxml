@@ -1,0 +1,357 @@
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.下列哪种氨基酸体内不能合成，必需靠食物供给</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.组氨酸</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.丝氨酸</button>
+				<button bindtap='f1_T' hover-class='F' disabled='{{q_1<1}}' plain='true'>C.缬氨酸</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.负氮平衡见于</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.营养充足的婴幼儿</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>B.疾病恢复期</button>
+				<button bindtap='f2_T' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.晚期癌症患者</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.消耗性病人体内的氮平衡状态是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3_T' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.摄入氮小于排出氮</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.摄入氮大于排出氮</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>C.摄入氮等于排出氮</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.我国营养学会推荐的成人每天蛋白质的需要量是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.20g</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.50g</button>
+				<button bindtap='f4_T' hover-class='F' disabled='{{q_4<1}}' plain='true'>C.80g</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.蛋白质营养价值的高低主要取决于</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>A.氨基酸的种类</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.必需氨基酸的数量</button>
+				<button bindtap='f5_T' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.必需氨基酸的种类、数量和比例</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.属于内肽酶的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.羧基肽酶</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.氨基肽酶</button>
+				<button bindtap='f6_T' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.胰蛋白酶</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.属于外肽酶的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7_T' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.羧基肽酶</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.胰蛋白酶</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C.糜蛋白酶</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.可激活胰蛋白酶原的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.二肽酶</button>
+				<button bindtap='f8_T' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.肠激酶</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.糜蛋白酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.经转氨基作用可生成草酰乙酸的氨基酸是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.谷氨酸</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.甘氨酸</button>
+				<button bindtap='f9_T' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.天冬氨酸</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.转氨基的辅酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10_T' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.磷酸吡哆醛</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.四氢叶酸</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.黄素单核苷酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.转氨酶的辅酶中含有的维生素是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11_T' hover-class='F' disabled='{{q_11<1}}' plain='true'>A.维生素B6</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.维生素B12</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.维生素C</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.体内氨基酸脱氨基作用的主要方式是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.转氨基</button>
+				<button bindtap='f12_T' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.联合转氨基</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.氧化转氨基</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.下列哪种氨基酸是生酮氨基酸</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.苏氨酸</button>
+				<button bindtap='f13_T' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.亮氨酸</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>C.谷氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.下列氨基酸中，属于生糖兼生酮的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.亮氨酸</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.赖氨酸</button>
+				<button bindtap='f14_T' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.苏氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.体内NH3的主要来源是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15_T' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.氨基酸脱氨基</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.肠道吸收</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.肾脏产氨</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.氨基酸脱氨的产物是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16_T' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.α-酮酸和氨</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.胺和CO2</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.草酰乙酸和氨</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.氨基酸脱羧的产物是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.α-酮酸和氨</button>
+				<button bindtap='f17_T' hover-class='F' disabled='{{q_17<1}}' plain='true'>B.胺和CO2</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.氨和CO2</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.氨在血中主要是以下列哪种形式运输的</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18_T' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.谷氨酰胺</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.天冬酰胺</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.谷氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.氨由肌组织通过血液向肝进行转运的过程是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.柠檬酸-丙酮酸循环</button>
+				<button bindtap='f19_T' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.丙氨酸-葡萄糖循环</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.鸟氨酸循环</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.丙氨酸-葡萄糖循环中产生的葡萄糖分子来自于</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20_T' hover-class='F' disabled='{{q_20<1}}' plain='true'>A.丙氨酸</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.肝中的谷氨酸</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.肌中的α-酮戊二酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.体内氨的主要去路是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.生成谷氨酰胺</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.生成铵盐</button>
+				<button bindtap='f21_T' hover-class='F' disabled='{{q_21<1}}' plain='true'>C.合成尿素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.在鸟氨酸循环中，合成尿素的第一分子氮和第二分子氮分别来源于</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22_T' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.游离氨，天冬氨酸</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>B.天冬氨酸，谷氨酸</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.游离氨，谷氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.精氨酸分解的产物除了尿素外，还有1分子</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.天冬氨酸</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.谷氨酸</button>
+				<button bindtap='f23_T' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.鸟氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.合成1分子尿素消耗</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.2个高能磷酸键的能量</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.3个高能磷酸键的能量</button>
+				<button bindtap='f24_T' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.4个高能磷酸键的能量</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.尿素循环中能自由通过线粒体膜的物质是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25_T' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.鸟氨酸和瓜氨酸</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.氨基甲酰乙酸</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.精氨酸和延胡索酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.精氨酸酶主要存在于哪种组织</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.脑</button>
+				<button bindtap='f26_T' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.肝</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.肾</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.在柠檬酸循环和尿素循环中存在的共同中间产物是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.天冬氨酸</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.草酰乙酸</button>
+				<button bindtap='f27_T' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.延胡索酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.血氨升高的主要原因是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28_T' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.肝功能障碍</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.肾功能障碍</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.食入蛋白质过多</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.下列化合物中不属于一碳单位的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.-CH3</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.-CH=</button>
+				<button bindtap='f29_T' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.CO2</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.下列氨基酸中哪一种不能提供一碳单位</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.丝氨酸</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.组氨酸</button>
+				<button bindtap='f30_T' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.酪氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.FH4合成受阻时可迅速影响哪种物质的合成</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31_T' hover-class='F' disabled='{{q_31<1}}' plain='true'>A.DNA</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.磷脂</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.蛋白质</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.S-腺苷甲硫氨酸的重要作用是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32_T' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.提供甲基</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.合成FH4</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.生成腺苷酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.维生素B12缺乏时，N5—CH3—FH4不能转交给</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.SAM</button>
+				<button bindtap='f33_T' hover-class='F' disabled='{{q_33<1}}' plain='true'>B.同型半胱氨酸</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.Met</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.牛磺酸是由哪个氨基酸转化生成的</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.谷氨酸</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.甘氨酸</button>
+				<button bindtap='f34_T' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.半胱氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.儿茶酚胺是由哪个氨基酸转化生成的</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>A.脯氨酸</button>
+				<button bindtap='f35_T' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.酪氨酸</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.色氨酸</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>
+

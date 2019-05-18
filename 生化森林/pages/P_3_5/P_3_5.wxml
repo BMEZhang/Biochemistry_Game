@@ -1,0 +1,17 @@
+<!--pages/P_3_5/P_3_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.【杨佳萱】一次在飞行训练时，飞机失事，飞行员跳伞过程中，由于携带的食物和水分不足，导致昏迷。但是一般在野外生存，可以长期饥饿，却不可以不喝水，这主要是因为长期饥饿时，人的血糖浓度由（）维持</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.葡萄糖分解</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.糖原分解</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.磷酸戊糖途径</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.糖异生</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.糖异生</text>
+</view>
+</view>
+
+

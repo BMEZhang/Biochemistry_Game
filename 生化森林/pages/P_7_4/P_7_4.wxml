@@ -1,0 +1,16 @@
+<!--pages/P_7_4/P_7_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.【杨行】在我国古代军队中，士兵会因为患夜盲症而无法夜间作战，这是因为缺乏维生素A导致的"夜盲症"，维生素A的活性形式为视黄醛等，视黄醛与视蛋白结合成视紫红质，发挥视觉功能。下列关于维生素A的说法错误的是：(  )</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.维生素A具有调节基因表达,维持上皮组织正常形态与生长的生理功能</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.维生素A具有抗氧化作用</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>C.缺维生素A缺导致对强光敏感性降低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.人缺维生素A还会出现皮肤干燥或干眼症</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+

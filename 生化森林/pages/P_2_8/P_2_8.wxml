@@ -1,0 +1,15 @@
+<!--pages/P_2_8/P_2_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.氧化修饰低密度脂蛋白是动脉粥样硬化的危险因子，它的大量细胞吞噬是造成血管内皮细胞向泡沫细胞和脂肪病变发展的重要因素。为抑制该过程的发生，可多摄入哪种维生素进行预防？</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.维生素E</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.维生素D</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.维生素B6</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.维生素B12</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>

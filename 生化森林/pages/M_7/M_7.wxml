@@ -1,0 +1,356 @@
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.维生素A缺乏导致（）</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.对强光敏感性降低</button>
+				<button bindtap='f1_T' hover-class='T' disabled='{{q_1<1}}' plain='true'>B.对弱光敏感性降低 </button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>C. 对颜色分辨率降低</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.维生素A的活性形式是（）</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.全反式维甲酸</button>
+				<button bindtap='f2_T' hover-class='T' disabled='{{q_2<1}}' plain='true'>B.视黄醇</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C. 生育酚</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.天然维生素A的主要形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3_T' hover-class='T' disabled='{{q_3<1}}' plain='true'>A.视黄醇</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.视黄醛</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>C.视紫红质</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.（）不是脂溶性维生素</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.维生素D</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.维生素A</button>
+				<button bindtap='f4_T' hover-class='T' disabled='{{q_4<1}}' plain='true'>C.维生素B</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.脂类吸收障碍可能会导致（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5_T' hover-class='T' disabled='{{q_5<1}}' plain='true'>A.干眼病</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>B. 脚气病</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.坏血病</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.与视蛋白构成视紫红质的维生素A的活性形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.9-顺视黄醛 </button>
+				<button bindtap='f6_T' hover-class='T' disabled='{{q_6<1}}' plain='true'>B. 11-顺视黄醛</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.全反视黄醛</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.维生素E不具有的功能是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.抗氧化 </button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.保胎</button>
+				<button bindtap='f7_T' hover-class='T' disabled='{{q_7<1}}' plain='true'>C.促凝血</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.可以促进肠粘膜对钙磷的吸收以及肾小管对磷的重吸收，从而调节钙磷代谢，维持正常血钙水平的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.维生素E</button>
+				<button bindtap='f8_T' hover-class='T' disabled='{{q_8<1}}' plain='true'>B.维生素D</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.维生素C</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.下列关于维生素E说法错误的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.维生素E缺乏可引起轻度贫血</button>
+				<button bindtap='f9_T' hover-class='T' disabled='{{q_9<1}}' plain='true'>B.人类缺乏维生素E可导致不孕</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.维生素E可预防冠状动脉粥样硬化性心脏病</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.下列关于维生素K说法错误的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.维生素K缺乏可引起易出血现象</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.维生素K可以降低动脉硬化的危险性</button>
+				<button bindtap='f10_T' hover-class='T' disabled='{{q_10<1}}' plain='true'>C.维生素K主要在小肠被吸收，随LDL（血浆低密度脂蛋白）代谢</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.维生素D的活性形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11_T' hover-class='T' disabled='{{q_11<1}}' plain='true'>A.1,25-（OH）₂-D3 </button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.7-脱氢胆固醇  </button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.25-（OH）-D3 </button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.辅酶A的生化作用是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.递氢体</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.递电子体 </button>
+				<button bindtap='f12_T' hover-class='T' disabled='{{q_12<1}}' plain='true'>C.转移酰基</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.不利于铁吸收的物质是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.GSH</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.柠檬酸</button>
+				<button bindtap='f13_T' hover-class='T' disabled='{{q_13<1}}' plain='true'>C.H₂O₂</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.下列不属于水溶性维生素的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.维生素B</button>
+				<button bindtap='f14_T' hover-class='T' disabled='{{q_14<1}}' plain='true'>B.维生素D</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.维生素C</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.下列关于水溶性维生素的说法正确的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15_T' hover-class='T' disabled='{{q_15<1}}' plain='true'>A.大部分水溶性维生素可作为辅酶参与反应</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.水溶性维生素中的维生素B1是唯一含有金属元素的维生素</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.叶酸不属于水溶性维生素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.一碳单位在体内参与核苷酸等物质的合成，叶酸作为一碳单位的载体，结合为点在（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.N5</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.N10</button>
+				<button bindtap='f16_T' hover-class='T' disabled='{{q_16<1}}' plain='true'>C.A&B</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.维生素B6可进行转氨基作用，缺少维生素B6，不会导致（）合成减少</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.γ-氨基丁酸</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>B.血红素</button>
+				<button bindtap='f17_T' hover-class='T' disabled='{{q_17<1}}' plain='true'>C.胆汁酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.关于维生素B1₂的说法错误的是（。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.维生素B1₂缺乏时甲硫氨酸循环受阻，四氢叶酸再生降低，一碳单位代谢受阻</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.维生素B1₂缺乏时会导致巨幼红细胞贫血</button>
+				<button bindtap='f18_T' hover-class='T' disabled='{{q_18<1}}' plain='true'>C.维生素B1₂摄入过多会影响脂酸的合成</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.下列关于维生素说法错误的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.维生素是维持机体正常功能所必需有机物</button>
+				<button bindtap='f19_T' hover-class='T' disabled='{{q_19<1}}' plain='true'>B.维生素在体内不能合成，必须由食物供给</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.维生素的主要作用是参与物质代谢的调节和维持生理功能</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.关于微量元素说法错误的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20_T' hover-class='T' disabled='{{q_20<1}}' plain='true'>A.微量元素是指每日需要量在10mg以下的元素</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.微量元素多为金属元素</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.铁是人体含量最多和需要最多的微量元素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.泛酸的活性形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.TPP </button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B. FH₂和ACP </button>
+				<button bindtap='f21_T' hover-class='T' disabled='{{q_21<1}}' plain='true'>C.CoA和ACP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.叶酸在体内的活性形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.FH₂和 FH4 </button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>B.FH4 </button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.TPP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.维生素B1在体内的活性形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23_T' hover-class='T' disabled='{{q_23<1}}' plain='true'>A.TPP</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.FAD</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.FMN</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.维生素PP在体内的活性形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24_T' hover-class='T' disabled='{{q_24<1}}' plain='true'>A.FMN 和FAD</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.TPP</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.FH₂和 FH4</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.钴的吸收形式是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25_T' hover-class='T' disabled='{{q_25<1}}' plain='true'>A.维生素B12</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.维生素B1</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.维生素PP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.不含维生素的化合物是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.CoA-SH </button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.FAD</button>
+				<button bindtap='f26_T' hover-class='T' disabled='{{q_26<1}}' plain='true'>C.UDPG</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.维生素PP包括烟酸和烟酰胺，其本质是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.嘧啶衍生物</button>
+				<button bindtap='f27_T' hover-class='T' disabled='{{q_27<1}}' plain='true'>B.吡啶衍生物</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.咪唑衍生物</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.参与生物氧化中氧化磷酸化过程的维生素是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28_T' hover-class='T' disabled='{{q_28<1}}' plain='true'>A.核黄素</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.泛酸</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.硫胺素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.氧化脱羧作用所需要的辅酶是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.生物素</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.磷酸吡多醛</button>
+				<button bindtap='f29_T' hover-class='T' disabled='{{q_29<1}}' plain='true'>C. 焦磷酸硫胺素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.生物素的生化作用是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.转移酰基</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.转移巯基</button>
+				<button bindtap='f30_T' hover-class='T' disabled='{{q_30<1}}' plain='true'>C.参与CO₂的固定</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.关于钙和磷说法错误的是（。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>A.均属于常量元素</button>
+				<button bindtap='f31_T' hover-class='T' disabled='{{q_31<1}}' plain='true'>B.血液中钙磷浓度维持稳定，血磷增高则血钙也增高</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.钙和磷在人体内主要以羟基磷灰石的形式存在</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.可做羟化酶的辅酶的维生素是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32_T' hover-class='T' disabled='{{q_32<1}}' plain='true'>A.维生素C</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.维生素 B12</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.维生素PP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.钙磷代谢受甲状旁腺激素调节（PTH）和降钙素（CT）调节，下列说法错误的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.CT降低血钙和血磷</button>
+				<button bindtap='f33_T' hover-class='T' disabled='{{q_33<1}}' plain='true'>B.PTH升高血磷降低血钙</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.PTH降低血磷升高血钙</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.与能量代谢有关的维生素有（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34_T' hover-class='T' disabled='{{q_34<1}}' plain='true'>A.硫胺素、核黄素、烟酰胺</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.叶酸、核黄素、烟酰胺</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.硫胺素、核黄素、磷酸鼻吡多醛</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.关于维生素的说法错误的是（）。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>A.可分为脂溶性和水溶性两大类</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.脂溶性维生素可在肝中储存</button>
+				<button bindtap='f35_T' hover-class='T' disabled='{{q_35<1}}' plain='true'>C.脂溶性维生素不可以参与辅酶的组成</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>

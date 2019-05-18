@@ -1,0 +1,357 @@
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.细胞内含量较多的核苷酸是</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.3’-ATP</button>
+				<button bindtap='f1_T' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.5’-ATP</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>C.5’-UTP</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.最直接联系糖代谢与核苷酸合成的物质是</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2_T' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.核糖-5-磷酸</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>B.葡糖-6-磷酸</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.葡糖-1-磷酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.嘌呤核苷酸的合成不需要</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.CO2</button>
+				<button bindtap='f3_T' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.丙氨酸</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>C.甘氨酸</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.谷氨酰胺中的酰胺基为核苷酸合成提供的元素是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4_T' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.嘌呤环上的两个氮原子</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.嘧啶环上的两个氮原子</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>C.胸腺嘧啶核苷酸上的两个氮原子</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.人体内嘌呤核苷酸从头合成最活跃的组织是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>A.脑</button>
+				<button bindtap='f5_T' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.肝</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.胸腺</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.在嘌呤核苷酸从头合成途径中，核酸的活化形式是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.5-磷酸核糖</button>
+				<button bindtap='f6_T' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.5-磷酸核糖-1-焦磷酸</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.5-磷酸核糖-1-氨基</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.嘌呤氨基酸从头合成首先生成的核苷酸是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7_T' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.IMP</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.GMP</button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C.AMP</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.核苷酸的补救合成主要存在于下列哪些组织器官</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.肝脏与肾脏</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.心肌与骨骼肌</button>
+				<button bindtap='f8_T' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.脑与脊髓</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.IMP转变为GMP的过程中经历了</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.还原反应</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.脱水反应</button>
+				<button bindtap='f9_T' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.氧化反应</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.IMP转变为GMP的过程中先转变为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10_T' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.XMP</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.AMP</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.CMP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.下列哪种脱氧核苷酸不是DNA的组分</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11_T' hover-class='F' disabled='{{q_11<1}}' plain='true'>A.dUMP</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.dTMP</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.dCMP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.核酸中核苷酸的连接方式是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12_T' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.3,5-磷酸二脂键</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.2,3-磷酸二脂键</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.2,5-磷酸二脂键</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.6-巯基嘌呤、8-氮杂鸟嘌呤具有抗肿瘤作用的可能机制是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.抑制DNA聚合酶</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.抑制蛋白质合成</button>
+				<button bindtap='f13_T' hover-class='F' disabled='{{q_13<1}}' plain='true'>C.抑制嘌呤的补救合成</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.哺乳动物体内直接催化尿酸生成的酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.鸟嘌呤脱氢酶</button>
+				<button bindtap='f14_T' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.黄嘌呤氧化酶</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.尿酸氧化酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.黄嘌呤氧化酶的产物为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15_T' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.尿酸</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.尿素</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.β-氨基异丁酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.痛风症是因为血中某种物质在关节、软组织处沉积，其成分为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.黄嘌呤</button>
+				<button bindtap='f16_T' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.尿酸</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.次黄嘌呤</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.别嘌呤醇治疗痛风的机制是该药抑制</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.鸟嘌呤脱氢酶</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>B.黄嘌呤脱氢酶</button>
+				<button bindtap='f17_T' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.黄嘌呤氧化酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.遗传性痛风症缺乏的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.氨基甲酰磷酸合成酶Ⅱ</button>
+				<button bindtap='f18_T' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.次黄嘌呤鸟嘌呤磷酸核糖转移酶</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.天冬氨酸氨基甲酰基转移酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.嘧啶核苷酸的合成不需要</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19_T' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.甘氨酸</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.谷氨酰胺</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.一碳单位</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.下列氨基酸中参与体内嘧啶核苷酸合成的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20_T' hover-class='F' disabled='{{q_20<1}}' plain='true'>A.天冬氨酸</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.天冬酰胺</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.精氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.嘧啶环中的两个氮原子是来自于</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.天冬酰胺和氨基甲酰磷酸</button>
+				<button bindtap='f21_T' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.天冬氨酸和氨基甲酰磷酸</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>C.谷氨酰胺和氨基甲酰磷酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.体内dTMP合成的直接前体是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22_T' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.dUMP</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>B.dCMP</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.UMP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.DNA分子中，连续重复排列的主链骨架是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.碱基与脱氧核糖</button>
+				<button bindtap='f23_T' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.磷酸与脱氧核糖</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.磷酸与核糖</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.嘧啶核苷酸从头合成时，先生成共同的</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.IMP</button>
+				<button bindtap='f24_T' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.UMP</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.FMP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.催化嘧啶核苷酸合成开始的酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.氨基甲酰磷酸合成酶Ⅰ</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.天冬氨酸氨基甲酰基转移酶</button>
+				<button bindtap='f25_T' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.氨基甲酰磷酸合成酶Ⅱ</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.体内胞嘧啶核苷酸的生物合成时，首先合成的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26_T' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.CTP</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.CMP</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.CDP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.嘧啶核苷酸补救途径的主要酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.胞苷激酶</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.尿苷激酶</button>
+				<button bindtap='f27_T' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.嘧啶磷酸核糖转移酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.在体内分解产生β-氨基异丁酸的核苷酸是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.IMP</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.UMP</button>
+				<button bindtap='f28_T' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.TMP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.5-FU是哪种碱基的类似物</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29_T' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.T</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.U</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.C</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.5-FU主要抑制细胞内的哪种代谢</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.嘌呤核苷酸的从头合成</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.嘧啶核苷酸的分解</button>
+				<button bindtap='f30_T' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.嘧啶核苷酸的从头合成</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.胞嘧啶的最终产物是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>A.β-氨基异丁酸</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.二氢胸腺嘧啶</button>
+				<button bindtap='f31_T' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.β-丙氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.嘌呤核苷酸和嘧啶核苷酸从头合成需要的共同原料是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.氨基甲酰磷酸</button>
+				<button bindtap='f32_T' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.PRPP</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.谷氨酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.嘌呤环中的N7来源于</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.Gly</button>
+				<button bindtap='f33_T' hover-class='F' disabled='{{q_33<1}}' plain='true'>B.Ala</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.Glu</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.嘌呤、嘧啶、尿素三者合成都需要</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.谷氨酰胺</button>
+				<button bindtap='f34_T' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.天冬氨酸</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.一碳单位</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.甲氨蝶呤和氨基蝶呤抑制嘌呤的合成，是因为他们可以抑制</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>A.天冬氨酸的氮转移</button>
+				<button bindtap='f35_T' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.二氢叶酸还原成四氢叶酸</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.谷氨酰胺的酰胺氮的转移</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>
+

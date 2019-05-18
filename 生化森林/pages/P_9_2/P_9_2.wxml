@@ -1,0 +1,17 @@
+<!--pages/P_9_2/P_9_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.蛋白质从溶液中析出，肉眼可见原来澄清的溶液中出现絮状物，这种现象称为蛋白质沉淀，发生沉淀的机制是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.蛋白质表面电荷导致蛋白质沉淀</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.中性盐可稳固蛋白质水化膜并中和电荷，使得蛋白质聚集析出</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.缓慢加热导致蛋白质凝固所致</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.有机溶剂破坏蛋白质水化膜，使蛋白质发生沉淀</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.有机溶剂破坏蛋白质水化膜，使蛋白质发生沉淀</text>
+</view>
+</view>
+
+

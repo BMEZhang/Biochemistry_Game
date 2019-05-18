@@ -1,0 +1,357 @@
+    <view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>1.为脂类的合成提供还原当量的是（）</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1_T' hover-class='T' disabled='{{q_1<1}}' plain='true'>A.NADPH</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.NADPH</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>C.NADH</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.哪种代谢途径发生在线粒体（）</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.磷酸戊糖途径</button>
+				<button bindtap='f2_T' hover-class='T' disabled='{{q_2<1}}' plain='true'>B.酮体生成</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.糖酵解  </button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.3.下列哪些途径发生在内质网（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.糖异生</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.尿素合成</button>
+				<button bindtap='f3_T' hover-class='T' disabled='{{q_3<1}}' plain='true'>C.胆固醇合成</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.下列关于关键酶的说法正确的是（）。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.催化的反应是可逆反应</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.常位于代谢途径的终点处</button>
+				<button bindtap='f4_T' hover-class='T' disabled='{{q_4<1}}' plain='true'>C.常位于代谢途径的分支处</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.胞质中不能进行哪些反应（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>A.糖酵解</button>
+				<button bindtap='f5_T' hover-class='T' disabled='{{q_5<1}}' plain='true'>B.脂肪酸β -氧化</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.柠檬酸循环 </button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.糖、脂肪酸、氨基酸分解供能的中间产物是（）。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6_T' hover-class='T' disabled='{{q_6<1}}' plain='true'>A.乙酰辅酶A</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.α -酮戊二酸</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.磷酸二羟丙酮</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.乙酰辅酶A不能变成（）。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>A.β -羟丁酸 </button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.乙酰乙酸</button>
+				<button bindtap='f7_T' hover-class='T' disabled='{{q_7<1}}' plain='true'>C.乙酰乙酸</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.下列关于糖、脂代谢说法正确的是（）。</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8_T' hover-class='T' disabled='{{q_8<1}}' plain='true'>A.糖分解产生的乙酰CoA可用于合成酮体</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.糖分解产生的乙酰Co A可用于合成脂肪酸</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.脂肪酸分解产生乙酰CoA可用于合成酮体</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.肝不能利用的物质是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.酮体</button>
+				<button bindtap='f9_T' hover-class='T' disabled='{{q_9<1}}' plain='true'>B.胆固醇</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.蛋白质</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.肝中特有的反应是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.核酸合成</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.酮体利用</button>
+				<button bindtap='f10_T' hover-class='T' disabled='{{q_10<1}}' plain='true'>C.尿素合成</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.下列哪种过程为细胞合成脂肪酸提供乙酰CoA</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>A.丙氨酸—葡萄糖循环</button>
+				<button bindtap='f11_T' hover-class='T' disabled='{{q_11<1}}' plain='true'>B.柠檬酸—丙酮酸循环</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.鸟氨酸循环</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.胆固醇转变可生成（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.前列腺素</button>
+				<button bindtap='f12_T' hover-class='T' disabled='{{q_12<1}}' plain='true'>B.性激素</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.胰岛素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.酮体生成的关键酶是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.HMG-CoA合酶</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.丙酮酸羧化酶</button>
+				<button bindtap='f13_T' hover-class='T' disabled='{{q_13<1}}' plain='true'>C.HMG-CoA还原酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.联系氨基酸与糖代谢的重要中间代谢产物是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.乙酰CoA</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.磷酸二羟丙酮</button>
+				<button bindtap='f14_T' hover-class='T' disabled='{{q_14<1}}' plain='true'>C.α-酮酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.糖、脂肪、氨基酸分解代谢的共同中间产物（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15_T' hover-class='T' disabled='{{q_15<1}}' plain='true'>A.乙酰CoA</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.磷酸二羟丙酮</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.5-磷酸核糖</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.某些激素抑制酶的转录从而减少酶量，属于（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16_T' hover-class='T' disabled='{{q_16<1}}' plain='true'>A.酶合成的阻遏</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.酶蛋白的降解</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.酶合成的诱导</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.食物中的糖类在肝中主要进行的过程不包含（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.合成糖原</button>
+				<button bindtap='f17_T' hover-class='T' disabled='{{q_17<1}}' plain='true'>B.糖的有氧氧化</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.转变为脂肪</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.糖脂肪氨基酸彻底氧化分解供能的共同途径不包括（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18_T' hover-class='T' disabled='{{q_18<1}}' plain='true'>A.肉碱穿梭</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.柠檬酸循环</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.呼吸链电子传递</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.关于酶的变构调节说法正确的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.具有放大效应</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.变构剂结合于酶活性中心</button>
+				<button bindtap='f19_T' hover-class='T' disabled='{{q_19<1}}' plain='true'>C.代谢物可做为变构剂</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.酶的变构效应剂可以是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20_T' hover-class='T' disabled='{{q_20<1}}' plain='true'>A.酶的底物</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.激素</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.其他酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.关于酶的化学修饰说法正确的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.泛素化与去泛素化最常见</button>
+				<button bindtap='f21_T' hover-class='T' disabled='{{q_21<1}}' plain='true'>B.磷酸化与脱磷酸化最常见</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>C.使酶活性增强</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.磷酸果糖激酶-1的变构激活剂不是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.FDP</button>
+				<button bindtap='f22_T' hover-class='T' disabled='{{q_22<1}}' plain='true'>B.ATP</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.cAMP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.饱食或饥饿时大脑的主要供能物质不是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.葡萄糖</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.酮体</button>
+				<button bindtap='f23_T' hover-class='T' disabled='{{q_23<1}}' plain='true'>C.脂肪酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.饥饿时血液中浓度升高的物质是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.胰岛素</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.葡萄糖</button>
+				<button bindtap='f24_T' hover-class='T' disabled='{{q_24<1}}' plain='true'>C.乙酰乙酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.应激状态下体内的主要代谢改变不包括（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.脂肪动员增强</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.肌蛋白分解增加</button>
+				<button bindtap='f25_T' hover-class='T' disabled='{{q_25<1}}' plain='true'>C.肝糖原分解减少</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.机体耗氧最多的器官是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.心</button>
+				<button bindtap='f26_T' hover-class='T' disabled='{{q_26<1}}' plain='true'>B.脑</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.肾</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.ATP/ADP比值降低时，产生的调节效应是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.抑制柠檬酸合酶</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.抑制丙酮酸激酶</button>
+				<button bindtap='f27_T' hover-class='T' disabled='{{q_27<1}}' plain='true'>C.抑制乙酰CoA羧化酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.关于酶的磷酸化修饰正确的是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.磷酸化后酶活性增加</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.磷酸化部位可发生与丝氨酸残基</button>
+				<button bindtap='f28_T' hover-class='T' disabled='{{q_28<1}}' plain='true'>C.磷酸化与脱磷酸化由不同的酶催化</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.关于酶含量的调节错误的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29_T' hover-class='T' disabled='{{q_29<1}}' plain='true'>A.不受激素水平影响</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.属于细胞水平调节</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.底物常可诱导酶的合成</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.胰岛素效应不包括（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.变构调节</button>
+				<button bindtap='f30_T' hover-class='T' disabled='{{q_30<1}}' plain='true'>B. 激素调节</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.酶合成调节</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.关于胰高血糖素效应，以下描述正确的是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31_T' hover-class='T' disabled='{{q_31<1}}' plain='true'>A.促进脂肪动员</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.促进糖原合成</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.促进糖酵解</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.短期饥饿时维持血糖浓度最主要的因素是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.肝糖原分解</button>
+				<button bindtap='f32_T' hover-class='T' disabled='{{q_32<1}}' plain='true'>B. 肝糖异生</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.组织蛋白分解</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.短期饥饿时机体代谢改变特点（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.脂肪动员减少</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>B.肝酮体生成减弱</button>
+				<button bindtap='f33_T' hover-class='T' disabled='{{q_33<1}}' plain='true'>C.骨骼肌蛋白质分解增强</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.长期饥饿机体不发生哪种代谢改变？</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.肾糖异生增强</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.肝酮体生成增强</button>
+				<button bindtap='f34_T' hover-class='T' disabled='{{q_34<1}}' plain='true'>C. 肌蛋白质分解增强</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.长期饥饿时脑的能量来源主要是（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35_T' hover-class='T' disabled='{{q_35<1}}' plain='true'>A.酮体</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.葡萄糖</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.脂肪酸</button>
+		</view>
+		</view>
+		
+</view>
+<button class='b' bindtap='ToScore' >完成</button>
+

@@ -1,0 +1,16 @@
+<!--pages/P_1_7/P_1_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.两个月大男婴，出生后母乳喂养，易哭闹、呕吐，常出现腹胀、腹泻现象，大便多为青绿色稀糊便，有奶块，排便后腹泻好转。大便常规阴性，还原糖阳性，p h 值低。对无乳糖配方治疗效果好，请问患儿最可能缺陷的酶是（）。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.半乳糖-1-磷酸尿苷酰转移酶</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>B.乳糖酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.半乳糖酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.α -糖苷酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

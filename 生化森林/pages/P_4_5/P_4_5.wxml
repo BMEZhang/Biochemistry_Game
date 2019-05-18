@@ -1,0 +1,16 @@
+<!--pages/P_4_5/P_4_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.临床上对高血氨病人做结肠透析时常用</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.强酸性透析液</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.弱酸性透析液</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.强碱性透析液</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.弱碱性透析液</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.弱酸性透析液</text>
+</view>
+</view>
+

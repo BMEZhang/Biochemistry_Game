@@ -1,0 +1,17 @@
+<!--pages/P_5_3/P_5_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.【蒙文豪】国庆七天假内，小华生活作息不规律。晚上熬夜和同学打游戏，并点许多外卖来当作宵夜。白天一觉不醒，中午随便一对付便与同学相约去打球，晚上还小聚一波，把酒言欢。几天下来，小华为正常学习该回了作息。几天后精神不振，吃东西感到恶心，去医院检查后，发现是因为熬夜过度饮酒而造成的肝损伤。肝损伤造成肝细胞性黄疸是下列哪项代谢异常引起的</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.胆红素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.血红素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.尿素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.乙醇</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+
+

@@ -1,0 +1,16 @@
+<!--pages/P_5_4/P_5_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.【聂雨泽】学员小王春节回家和昔日同窗聚会，一年未见，久别重逢大家都很开心。平日里滴酒不沾的小王乘兴喝了几杯，结果不久就出现了面部潮红、脉搏加快的现象。若是饮酒引起的上述反应，那么最有可能是因为小王体内哪种酶的活性缺失导致的？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.ADH</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.ALDH</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.ALT</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.AST</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

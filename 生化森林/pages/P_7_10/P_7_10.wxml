@@ -1,0 +1,17 @@
+<!--pages/P_7_10/P_7_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.维生素是生物体所需要的微量营养成分，一般又无法由生物体自己生产，需要通过饮食等手段获得，缺乏维生素会导致严重的健康问题；适量摄取维生素可以保持身体强壮健康；过量摄取维生素却会导致中毒。下列关于维生素的说法错误的是（）。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.脂溶性维生素可在肝中储存</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.B族维生素可通过构成辅酶发挥作用</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>C.摄入维生素越多体内储存越多</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.部分脂溶性维生素参与辅酶的构成</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+
+

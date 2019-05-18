@@ -1,0 +1,16 @@
+<!--pages/P_4_3/P_4_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.按照氨中毒学说，肝性脑病是由于NH3引起脑</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.糖酵解减慢</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.柠檬酸循环减慢</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.磷酸戊糖旁路受阻</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.糖异生减慢</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.柠檬酸循环减慢</text>
+</view>
+</view>
+

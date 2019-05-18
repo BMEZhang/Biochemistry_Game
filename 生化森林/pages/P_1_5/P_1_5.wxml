@@ -1,0 +1,15 @@
+<!--pages/P_1_5/P_1_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.【赵庆龙】在汉代医书《金匮要略》中记载：“男子消渴。小便反多，以饮一斗，小便一斗。”“渴欲饮水不止。”又言“消渴欲食，大便必坚，小便必数。”消渴症即为糖尿病，其典型症状归结于“三多一少”：多尿，多饮，多食，消瘦。其严重患者体内哪种物质含量可能会上升？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.丙酮酸激酶</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>B.丙酮酸激酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.糖原磷酸化酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.3-磷酸甘油醛</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>

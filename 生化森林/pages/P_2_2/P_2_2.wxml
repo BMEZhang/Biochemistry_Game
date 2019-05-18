@@ -1,0 +1,15 @@
+<!--pages/P_2_2/P_2_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.【贾麒】40岁女性患者因有反复性胰炎而就诊，经检查发现她的血乳糜微粒水平（++），甘油三酯水平（+++），据此，请判断下列选项所对应的基因缺陷哪一个最有可能是病因</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.LDL受体</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.apoB100受体 </button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.ApoCⅡ</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.HMG-CoA还原酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/P_8_1/P_8_1.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>1.【杨有银】一男婴，在出生时完全正常，在3~4各月时发现发育停滞，反复呕吐，全身肌张力底下。在7~8个时出现不自主运动，常表现得燥动不安，啼哭，有时还出现惊厥。经医院检查，患儿体液中尿酸含量明显增加，尿酸/肌酐比值上升。尿液中出现橘红色的尿酸结晶，患儿患痛风性关节痛。经医院确诊为“自毁容貌症”。该病是一种特殊的伴X染色体隐形遗传病。其病因时体内核苷酸代谢中的一种酶活力缺乏导致的，该酶是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.腺嘌呤磷酸核糖转移酶</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.次黄嘌呤—鸟嘌呤磷酸核糖转移酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.磷酸核糖焦磷酸合成酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.氨基甲酰磷酸合成酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.次黄嘌呤—鸟嘌呤磷酸核糖转移酶</text>
+</view>
+</view>
+

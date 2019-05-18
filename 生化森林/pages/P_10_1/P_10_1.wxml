@@ -1,0 +1,15 @@
+<!--pages/P_10_1/P_10_1.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>1.【柴彦杰】战士小靳在野外拉练,看到路边鲜红的苹果,偷偷摘了两个直接就吃了。晚上休息,小靳感到恶心呕吐,头晕腹痛,还流口水。军医看了发现小靳瞳孔缩小,肌肉轻微震颤,心率减慢。在询问小靳近日饮食过后,军医判断是有机磷农药中毒,就马上令其服用乙酰胆碱拮抗剂阿托品和胆碱酯酶复活剂解磷定。因为有机磷农药特异地与胆碱酯酶活性中心丝氨酸残基的羟基结合,使胆碱酯酶失活,导致乙酰胆碱积累。有机磷农药属于（  ）抑制剂</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.不可逆</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.竞争性</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.非竞争性</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D..变构</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.不可逆</text>
+</view>
+</view>

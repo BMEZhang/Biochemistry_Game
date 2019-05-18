@@ -1,0 +1,16 @@
+<!--pages/P_10_6/P_10_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.非竞争性抑制剂存在时，酶促反应动力学的特点是</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.表观Km值不变，Vmax降低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.表观Km值不变，Vmax增大</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.表观Km值和Vmax均降低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.表观Km值和Vmax均升高</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.表观Km值不变，Vmax降低</text>
+</view>
+</view>
+

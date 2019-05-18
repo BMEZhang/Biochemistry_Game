@@ -1,0 +1,17 @@
+<!--pages/P_9_4/P_9_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.核糖核酸酶由一条多肽链构成，其空间结构由分子内4对二硫键维持。当在其酶溶液中加入尿素和β巯基乙醇时，酶活性丧失；当透析除去尿素和β巯基乙醇时，酶又恢复原有生物活性。这一现象说明</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.变性的蛋白质有时可以复性</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.蛋白质空间结构与其一级结构无关</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.酶活性与空间结构无关</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.尿素和β巯基乙醇不是该酶变性剂</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.变性的蛋白质有时可以复性</text>
+</view>
+</view>
+
+

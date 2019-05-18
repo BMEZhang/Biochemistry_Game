@@ -1,0 +1,17 @@
+<!--pages/P_4_10/P_4_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.【王建钢】xxx是某医大派到某京医院的实习生，近日因熬夜打游戏致精神萎靡，注意力不集中。在给一肝硬化患者用药时，错误使用了碱性利尿剂。致该患者脑细胞代谢紊乱，脑组织能量供应不足。引起患者这些症状的原因是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.酮体浓度升高</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.血氨升高</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.酮体浓度降低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.血氨降低</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.血氨升高</text>
+</view>
+</view>
+
+

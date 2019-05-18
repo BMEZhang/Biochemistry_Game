@@ -1,0 +1,16 @@
+<!--pages/P_5_5/P_5_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.【周小嵩】近日热播剧《延禧攻略》中有一幕让很多人产生了兴趣。五阿哥出生，全身泛黄，甚至眼睛都是金黄色，被认为是不祥之兆的金瞳，差点被恶毒的高贵妃活埋，一幕幕让观众揪心不已。最后被一民间神医诊断为小儿黄疸，调养一番，不久后可以自愈，那么很多人都知道到底是什么造成了五阿哥的病症。（    ）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.胆红素</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.酮体</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.尿素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.甘油</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

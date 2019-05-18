@@ -1,0 +1,16 @@
+/* pages/menu_2_6/menu_2_6.wxss */
+.B{
+	width: 60%
+}
+.whole{
+	height: 70vh;
+	display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.b{
+	width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/594a3cec97dc7138.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}

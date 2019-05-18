@@ -1,0 +1,16 @@
+<!--pages/P_3_2/P_3_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.新生儿的褐色脂肪组织可以产热，这是因为解偶联蛋白具有什么性质</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>A.使质子电化学梯度丧失</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.阻断呼吸链的电子传递</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.抑制质子泵</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.吸附热量</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.使质子电化学梯度丧失</text>
+</view>
+</view>
+

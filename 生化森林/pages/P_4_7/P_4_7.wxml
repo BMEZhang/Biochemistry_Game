@@ -1,0 +1,17 @@
+<!--pages/P_4_7/P_4_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.下述哪种酶缺乏可致白化病</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.酪氨酸酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.酪氨酸羟化酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.苯丙氨酸羟化酶</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.苯丙氨酸转氨酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A.酪氨酸酶</text>
+</view>
+</view>
+
+

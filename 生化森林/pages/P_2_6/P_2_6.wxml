@@ -1,0 +1,16 @@
+<!--pages/P_2_6/P_2_6.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>6.45岁女性患者，有出血和全血细胞减少的病史，现出现腿部疼痛就诊，逐年加重。断层扫描检查发现股骨头糜烂和变薄。骨髓活检确诊为Gaucher氏症。推测该患者细胞溶酶体内将出现何种物质蓄积？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.硫苷脂</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.脑苷脂</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.黏多糖</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.神经酰胺</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

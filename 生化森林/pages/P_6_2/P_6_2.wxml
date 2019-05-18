@@ -1,0 +1,17 @@
+<!--pages/P_6_2/P_6_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.【符瑜】封某，年40，是一名工程师，好酗酒，有很长的饮酒史，某段时间因为工作压力导致心情烦闷，连续一周的饮酒量更是比平时还多。某天饮酒过后发现自己的手掌大小鱼际处皮肤出现了片状充血，按压后变苍白色，以为是经常干重活导致没有在意，愈发严重后去往医院检查，得出结果为肝掌。请问造成肝掌的原因是什么</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.甘油三酯转运障碍</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.胆固醇转变胆汁酸受阻</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.雌激素灭活受阻</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.醛固酮灭活能力下降</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C</text>
+</view>
+</view>
+
+

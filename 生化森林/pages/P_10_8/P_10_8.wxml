@@ -1,0 +1,16 @@
+<!--pages/P_10_8/P_10_8.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>8.在酶的分离纯化中最理想的实验结果是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.纯化倍数高、蛋白含量低</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.蛋白质的回收率最高</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.比活性最大</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.比活性最小</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.比活性最大</text>
+</view>
+</view>
+

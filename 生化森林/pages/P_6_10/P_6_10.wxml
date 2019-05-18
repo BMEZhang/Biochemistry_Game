@@ -1,0 +1,17 @@
+<!--pages/P_6_10/P_6_10.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>10.肝在脂类代谢中的叙述，错误的是（）</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.肝是合成磷脂的主要场所</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.肝是合成酮体的主要场所</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.肝是合成四种血浆脂蛋白的主要场所</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.肝是脂肪代谢的主要器官</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D</text>
+</view>
+</view>
+
+

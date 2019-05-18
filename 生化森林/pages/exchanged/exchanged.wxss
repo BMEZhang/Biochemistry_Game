@@ -1,0 +1,31 @@
+/* pages/exchanged/exchanged.wxss */
+.bg{
+	width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/d30f7b94b9815a6e.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.a{
+width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/24/3032017160---20.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.b{
+width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/24/-3032017167----20.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.c{
+width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/24/-3032017177----20.md.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.d{
+width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/24/3032017154----20_00.md.png');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.e{
+width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/24/3052017039---20.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}

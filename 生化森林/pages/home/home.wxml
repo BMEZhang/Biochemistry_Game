@@ -1,0 +1,18 @@
+<view class='bg1' >
+<view wx:if="{{S>99}}" class='bg2'>
+<view wx:if="{{S>199}}" class='bg3' >
+<view wx:if="{{S>299}}" class='bg4' >
+<view wx:if="{{S>399}}" class='bg5' >
+</view>
+</view>
+</view>
+</view>
+</view>
+<view class='bottom'>
+<text class='text'>养料：{{score}}</text>
+<text class='text'>等级：{{level}}</text>
+<view class='select'>
+<button class='b' bindtap='ToExchange'>兑换</button>
+<button class='b' bindtap='ToExchanged'>已兑换</button>
+</view>
+</view>

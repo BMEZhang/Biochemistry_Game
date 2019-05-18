@@ -1,0 +1,359 @@
+<!--pages/M_1/M_1.wxml-->
+<view>
+<view class='Background' >
+	<view class='empty'>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+	<text>1.人体中由于缺少（）不能对纤维素进行分解</text><!--第一题-->
+		</view>
+		<view class='A'>
+				<button bindtap='f1_T' hover-class='F' disabled='{{q_1<1}}' plain='true'>A.β -糖苷酶</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>B.纤维素酶</button>
+				<button bindtap='f1' hover-class='F' disabled='{{q_1<1}}' plain='true'>C.α -糖苷酶</button>
+		</view>
+		</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>2.淀粉经α -糖苷酶水解后的主要产物有</text>
+		</view>
+	<view class='A'>
+				<button bindtap='f2_T' hover-class='F' disabled='{{q_2<1}}' plain='true'>A.麦芽糖、麦芽三糖</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>B.麦芽糖、葡萄糖</button>
+				<button bindtap='f2' hover-class='F' disabled='{{q_2<1}}' plain='true'>C.极限糊精、异麦芽糖</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>3.单糖被小肠吸收的载体SGLT(Na+依赖型葡萄糖转运蛋白)主要存在于</text>
+		</view>
+		<view class='C'>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>A.小肠粘膜细胞</button>
+				<button bindtap='f3' hover-class='F' disabled='{{q_3<1}}' plain='true'>B.肾小管上皮细胞</button>
+				<button bindtap='f3_T' hover-class='F' disabled='{{q_3<1}}' plain='true'>C.A&B</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>4.葡萄糖转运蛋白（GLUT-2）主要存在于肝细胞和胰腺β细胞中，与葡萄糖亲和力低，可调节（）的分泌</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>A.胰高血糖素</button>
+				<button bindtap='f4_T' hover-class='F' disabled='{{q_4<1}}' plain='true'>B.胰岛素</button>
+				<button bindtap='f4' hover-class='F' disabled='{{q_4<1}}' plain='true'>C.肾上腺素</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>5.胰岛素分泌时，原先位于脂肪细胞和肌细胞囊泡内的（）会转移至细胞膜上摄取葡萄糖</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>A.GLUT2</button>
+				<button bindtap='f5' hover-class='F' disabled='{{q_5<1}}' plain='true'>B.GLUT3</button>
+				<button bindtap='f5_T' hover-class='F' disabled='{{q_5<1}}' plain='true'>C.GLUT4</button>
+	</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>6.糖酵解时的关键酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f6_T' hover-class='F' disabled='{{q_6<1}}' plain='true'>A.己糖激酶,磷酸果糖激酶-1,丙酮酸激酶</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>B.葡糖激酶，醛缩酶，丙酮酸激酶</button>
+				<button bindtap='f6' hover-class='F' disabled='{{q_6<1}}' plain='true'>C.己糖激酶,磷酸甘油酸激酶,3-磷酸甘油醛脱氢酶</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>7.葡糖激酶是己糖激酶的同工酶，它的活性受（）调节</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>A. 葡糖-6-磷酸</button>
+				<button bindtap='f7_T' hover-class='F' disabled='{{q_7<1}}' plain='true'>B.胰岛素 </button>
+				<button bindtap='f7' hover-class='F' disabled='{{q_7<1}}' plain='true'>C. 血糖浓度</button>
+		</view>
+	</view>	
+	<view class='E'>
+		<view class='Q'>
+		<text>8.磷酸果糖激酶-1是糖酵解中最重要的关键酶，它的最强激活剂是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>A.果糖-1,6-二磷酸</button>
+				<button bindtap='f8_T' hover-class='F' disabled='{{q_8<1}}' plain='true'>B.果糖-2,6-二磷酸</button>
+				<button bindtap='f8' hover-class='F' disabled='{{q_8<1}}' plain='true'>C.柠檬酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>9.神经细胞，白细胞以及骨髓细胞因代谢活跃，常由（）来提供能量</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>A.有氧呼吸</button>
+				<button bindtap='f9' hover-class='F' disabled='{{q_9<1}}' plain='true'>B.磷酸戊糖途径</button>
+				<button bindtap='f9_T' hover-class='F' disabled='{{q_9<1}}' plain='true'>C.无氧呼吸</button>
+		</view>
+		</view>
+		<view class='E'>
+		<view class='Q'>
+		<text>10.果糖可以通过己糖激酶的磷酸化作用，在肌和脂肪组织中生成（），通过果糖激酶的作用在肝中转化成（）</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>A.果糖-1,6-二磷酸,果糖-2,6-二磷酸</button>
+				<button bindtap='f10_T' hover-class='F' disabled='{{q_10<1}}' plain='true'>B.果糖-6-磷酸，果糖-1-磷酸</button>
+				<button bindtap='f10' hover-class='F' disabled='{{q_10<1}}' plain='true'>C.果糖-1,6-二磷酸，果糖-1-磷酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>11.糖无氧氧化时每分子磷酸丙糖进行两次底物水平磷酸化，1mol的NADH在脑和骨骼肌中进行的底物水平磷酸化可产生（）mol ATP</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f11_T' hover-class='F' disabled='{{q_11<1}}' plain='true'>A.1.5</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>B.2.5</button>
+				<button bindtap='f11' hover-class='F' disabled='{{q_11<1}}' plain='true'>C.2.0</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>12.（）不是参与有氧氧化中丙酮酸氧化脱羧这一步的辅因子</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>A.TPP</button>
+				<button bindtap='f12' hover-class='F' disabled='{{q_12<1}}' plain='true'>B.硫辛酸</button>
+				<button bindtap='f12_T' hover-class='F' disabled='{{q_12<1}}' plain='true'>C.生物素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>13.（）不是柠檬酸循环的关键酶</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>A.柠檬酸合酶</button>
+				<button bindtap='f13' hover-class='F' disabled='{{q_13<1}}' plain='true'>B.异柠檬酸脱氢酶</button>
+				<button bindtap='f13_T' hover-class='F' disabled='{{q_13<1}}' plain='true'>C.琥珀酰CoA 合成酶</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>14.一分子乙酰CoA经柠檬酸循环后的产物是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>A.2分子CO₂和 4分子H2O</button>
+				<button bindtap='f14' hover-class='F' disabled='{{q_14<1}}' plain='true'>B.草酰乙酸,2分子CO₂和4分子H2O</button>
+				<button bindtap='f14_T' hover-class='F' disabled='{{q_14<1}}' plain='true'>C.4分子还原当量、2分子CO₂和GTP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>15.磷酸戊糖途径不生成</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>A.磷酸核糖</button>
+				<button bindtap='f15' hover-class='F' disabled='{{q_15<1}}' plain='true'>B.NADPH</button>
+				<button bindtap='f15_T' hover-class='F' disabled='{{q_15<1}}' plain='true'>C.ATP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>16.（）这种途径不生成也不消耗ATP/UTP</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>A.糖酵解</button>
+				<button bindtap='f16' hover-class='F' disabled='{{q_16<1}}' plain='true'>B.糖原合成</button>
+				<button bindtap='f16_T' hover-class='F' disabled='{{q_16<1}}' plain='true'>C.糖原分解</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>17.1mol葡萄糖彻底氧化生成（）mol ATP</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>A.28</button>
+				<button bindtap='f17' hover-class='F' disabled='{{q_17<1}}' plain='true'>B.30或28</button>
+				<button bindtap='f17_T' hover-class='F' disabled='{{q_17<1}}' plain='true'>C.30或32</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>18.从非糖化合物转变为（）的过程称为糖异生</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>A.糖原</button>
+				<button bindtap='f18' hover-class='F' disabled='{{q_18<1}}' plain='true'>B.葡萄糖</button>
+				<button bindtap='f18_T' hover-class='F' disabled='{{q_18<1}}' plain='true'>C.A&B</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>19.可以进行糖异生的非糖化合物不包括</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>A.乳酸</button>
+				<button bindtap='f19_T' hover-class='F' disabled='{{q_19<1}}' plain='true'>B.乙酰CoA</button>
+				<button bindtap='f19' hover-class='F' disabled='{{q_19<1}}' plain='true'>C.丙酮酸</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>20.糖原合成时葡萄糖需要活化成UDPG在糖原合酶的作用下形成（），连成直链；在分支酶的作用下形成（），连成支链</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f20_T' hover-class='F' disabled='{{q_20<1}}' plain='true'>A.α -1,4-糖苷键，α -1,6-糖苷键</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>B.α -1,6-糖苷键，β -1,4-糖苷键</button>
+				<button bindtap='f20' hover-class='F' disabled='{{q_20<1}}' plain='true'>C.α -1,4-糖苷键，β -1,4-糖苷键</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>21.在肌细胞中，糖原分解生成</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f21_T' hover-class='F' disabled='{{q_21<1}}' plain='true'>A.葡糖-1-磷酸</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>B.葡糖-6-磷酸</button>
+				<button bindtap='f21' hover-class='F' disabled='{{q_21<1}}' plain='true'>C.葡萄糖</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>22.糖原分解的关键酶是糖原磷酸化酶，糖原合成的关键酶是糖原合酶，两者的活性形式是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f22_T' hover-class='F' disabled='{{q_22<1}}' plain='true'>A.磷酸化，脱磷酸化</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>B.脱磷酸化，磷酸化</button>
+				<button bindtap='f22' hover-class='F' disabled='{{q_22<1}}' plain='true'>C.磷酸化，磷酸化</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>23.糖异生主要在（）中进行</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>A.肾</button>
+				<button bindtap='f23_T' hover-class='F' disabled='{{q_23<1}}' plain='true'>B.肝</button>
+				<button bindtap='f23' hover-class='F' disabled='{{q_23<1}}' plain='true'>C.肌组织</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>24.丙酮酸转变为磷酸烯醇式丙酮酸的关键酶是</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>A.丙酮酸羧化酶</button>
+				<button bindtap='f24' hover-class='F' disabled='{{q_24<1}}' plain='true'>B.磷酸烯醇式丙酮酸羧激酶</button>
+				<button bindtap='f24_T' hover-class='F' disabled='{{q_24<1}}' plain='true'>C.A&B</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>25.肌收缩无氧氧化产生的乳酸经过血液进入肝内进行糖异生为葡萄糖，称为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>A.TCA循环</button>
+				<button bindtap='f25_T' hover-class='F' disabled='{{q_25<1}}' plain='true'>B.乳酸循环</button>
+				<button bindtap='f25' hover-class='F' disabled='{{q_25<1}}' plain='true'>C.三羧酸循环</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>26.（）不是升高血糖的激素</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>A.糖皮质激素</button>
+				<button bindtap='f26' hover-class='F' disabled='{{q_26<1}}' plain='true'>B.肾上腺素</button>
+				<button bindtap='f26_T' hover-class='F' disabled='{{q_26<1}}' plain='true'>C.胰岛素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>27.血糖偏低时，大脑仍能摄取葡萄糖而肝不能，是因为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>A.血脑屏障在血糖低时不起作用</button>
+				<button bindtap='f27' hover-class='F' disabled='{{q_27<1}}' plain='true'>B.肝中葡糖激酶Km低</button>
+				<button bindtap='f27_T' hover-class='F' disabled='{{q_27<1}}' plain='true'>C.脑中己糖激酶Km低</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>28.（）的缺乏可使血液中丙酮酸含量升高</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f28_T' hover-class='F' disabled='{{q_28<1}}' plain='true'>A.硫胺素</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>B.叶酸</button>
+				<button bindtap='f28' hover-class='F' disabled='{{q_28<1}}' plain='true'>C.生物素</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>29.两分子的丙氨酸异生为葡萄糖需要消耗（）个高能磷酸键</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>A.3</button>
+				<button bindtap='f29_T' hover-class='F' disabled='{{q_29<1}}' plain='true'>B.4</button>
+				<button bindtap='f29' hover-class='F' disabled='{{q_29<1}}' plain='true'>C.6</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>30.丙酮酸不参与（）代谢过程</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>A.变为丙氨酸</button>
+				<button bindtap='f30' hover-class='F' disabled='{{q_30<1}}' plain='true'>B.变为乳酸</button>
+				<button bindtap='f30_T' hover-class='F' disabled='{{q_30<1}}' plain='true'>C.经异构酶催化生成丙酮</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>31.磷酸戊糖途径</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>A.是体内CO₂的主要来源</button>
+				<button bindtap='f31_T' hover-class='F' disabled='{{q_31<1}}' plain='true'>B.可生成NADPH供合成代谢需要</button>
+				<button bindtap='f31' hover-class='F' disabled='{{q_31<1}}' plain='true'>C.饥饿时葡萄糖经此途径代谢增加</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>32.与生物转化第二相反应关系密切的是下列哪条途径</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f32_T' hover-class='F' disabled='{{q_32<1}}' plain='true'>A.磷酸戊糖途径</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>B.糖异生</button>
+				<button bindtap='f32' hover-class='F' disabled='{{q_32<1}}' plain='true'>C.有氧氧化</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>33.巴斯德效应是指有氧氧化抑制（）的现象</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f33_T' hover-class='F' disabled='{{q_33<1}}' plain='true'>A.糖无氧氧化</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>B.磷酸戊糖途径</button>
+				<button bindtap='f33' hover-class='F' disabled='{{q_33<1}}' plain='true'>C.糖异生</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>34.当体内糖摄入过多时，需要增加水溶性维生素的摄入，是因为</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>A.维生素D促进糖酵解和TCA循环</button>
+				<button bindtap='f34_T' hover-class='F' disabled='{{q_34<1}}' plain='true'>B.维生素B族以辅酶的形式发挥作用</button>
+				<button bindtap='f34' hover-class='F' disabled='{{q_34<1}}' plain='true'>C.维生素PP在体内的活性形式是TPP</button>
+		</view>
+	</view>
+	<view class='E'>
+		<view class='Q'>
+		<text>35.砷中毒可能是由于砷与（）发生反应</text>
+		</view>
+		<view class='A'>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>A.FAD</button>
+				<button bindtap='f35' hover-class='F' disabled='{{q_35<1}}' plain='true'>B.叶酸</button>
+				<button bindtap='f35_T' hover-class='F' disabled='{{q_35<1}}' plain='true'>C.硫辛酸</button>
+		</view>
+		</view>
+		
+</view>
+<button  class='b' bindtap='ToScore' >完成</button>
+</view>

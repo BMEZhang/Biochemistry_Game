@@ -1,0 +1,25 @@
+/* pages/score_P_10/score_P_10.wxss */
+.bg{
+	width: 100vw;height: 100vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/d30f7b94b9815a6e.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.empty{
+	height: 20vh
+}
+.data{
+	height:15vh ;
+	display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.button{
+	height: 30vh	;
+	display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}

@@ -1,0 +1,16 @@
+<!--pages/P_1_4/P_1_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.【刘佳伟】一个七个月大的女孩，发育迟缓，因低血糖晕厥住院。经检查发现其肝肿大，腹部膨胀，低血糖，血中乳酸含量高。并且该女孩肝糖原含量极高，请问可能她哪个酶出现了问题（）</text>
+</view>
+<view class='A'>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>A.葡糖-6-磷酸酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.丙酮酸激酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.己糖激酶</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.乳糖酶</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：A</text>
+</view>
+</view>
+

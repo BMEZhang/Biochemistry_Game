@@ -1,0 +1,17 @@
+<!--pages/P_8_4/P_8_4.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>4.患者，男，56岁。近三年来出现关节疼痛伴低热，伴发尿路结石。一周前，大量进食肉类食物后病情明显加重前来就诊。血清中尿酸水平升高。初步诊断为痛风。下列能够导致痛风的主要原因是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.嘌呤核苷酸合成异常</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B.嘌呤核苷酸分解异常</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.嘧啶核苷酸合成异常</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.嘧啶核苷酸分解异常</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B.嘌呤核苷酸分解异常</text>
+</view>
+</view>
+
+

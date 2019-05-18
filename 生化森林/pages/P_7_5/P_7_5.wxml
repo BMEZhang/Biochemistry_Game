@@ -1,0 +1,16 @@
+<!--pages/P_7_5/P_7_5.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>5.某患儿7个月大，母乳喂养，一直未添加辅食，出现嗜睡，面色黄，临床就医诊断为巨幼红细胞贫血，其原因是缺乏（）。</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.维生素A </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.维生素B1</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.Fe</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>D.维生素B12 </button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D</text>
+</view>
+</view>
+

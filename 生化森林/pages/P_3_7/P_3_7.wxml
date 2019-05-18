@@ -1,0 +1,16 @@
+<!--pages/P_3_7/P_3_7.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>7.【李梓涵】《景德传灯录》卷三中提到过：“石头和尚《草庵歌》，回光返照便归来，廓达灵根非向背。”“回光返照”常被用来比喻事物灭亡前呈现的暂时虚假的好转现象。而在临床上，“回光返照”的现象也时有发生，例如重病病人忽然精神抖擞，和之前判若两人，但没过多久就去世了。有一种解释说这是因为病人去世前体内ATP大量分解，“孤注一掷”地释放巨大能量。如果这种解释成立，请问“回光返照”的病人体内哪类物质含量会升高？</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.胰岛素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.生育酚</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.甲状腺素</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.尿素</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.甲状腺素</text>
+</view>
+</view>
+

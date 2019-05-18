@@ -1,0 +1,14 @@
+/* pages/introduction/introduction.wxss */
+.B{
+	width: 100%
+}
+.image{
+	width: 100vw;height: 92vh;margin-top:0vw ;background: url('http://www.wailian.work/images/2019/02/26/_20181003010925000.md.jpg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.back{
+	height: 100vh;
+	background: yellowgreen;
+	
+}

@@ -1,0 +1,16 @@
+<!--pages/P_7_2/P_7_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.【陈帅】在进行剧烈运动后12-24小时，会出现肌肉酸痛的现象，称为延迟性肌肉酸痛（DOMS）。炎症反应学说认为，DOMS是由机械性损伤所引发的一系列炎症反应，已知运动后Ca2+浓度升高，并且Ca2+在肌肉酸痛的过程中起到了触发作用。下列哪一项与血液中Ca2+升高无关</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.高钙血症</button>
+<button bindtap='T' hover-class='T' disabled='{{q<1}}' plain='true'>B.血磷增加</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.甲状旁腺亢进</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.抽搐</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+

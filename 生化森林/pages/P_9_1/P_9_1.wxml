@@ -1,0 +1,16 @@
+<!--pages/P_9_1/P_9_1.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>1.镰状细胞贫血症，临床表现为红细胞变形、破裂，导致溶血，造成贫血，其发病机制可以用以下生物化学理论解释</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.正常HB β亚基6位是缬氨酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.患者HB 中谷氨酸变异成亮氨酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C.β亚基表面“黏性位点”致HB变构</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>D.血红蛋白聚集沉淀,形成的长纤维能扭曲并刺破红细胞,引起溶血和多种继发症</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：D.血红蛋白聚集沉淀,形成的长纤维能扭曲并刺破红细胞,引起溶血和多种继发症</text>
+</view>
+</view>
+

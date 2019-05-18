@@ -1,0 +1,17 @@
+<!--pages/P_9_3/P_9_3.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>3.疯牛病是由朊蛋白引起的一组人和动物神经退行性病变，是目前的研究热点，对于这种疾病的发病机制，下列描述正确的是</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A.阮蛋白含有核酸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>B.致病朊蛋白与正常型一级结构不同</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>C.外源或新生瘙痒型朊蛋白可作模板,使正常朊蛋白重新折叠成为瘙痒型朊蛋白</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D.疯牛病属于分子病</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：C.外源或新生瘙痒型朊蛋白可作模板,使正常朊蛋白重新折叠成为瘙痒型朊蛋白</text>
+</view>
+</view>
+
+

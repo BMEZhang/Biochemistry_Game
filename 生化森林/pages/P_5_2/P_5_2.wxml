@@ -1,0 +1,17 @@
+<!--pages/P_5_2/P_5_2.wxml-->
+<view class='bg' >
+<view class='Q'>
+<text>2.【罗梓峰】某男性患者，40岁，近一周前开始出现厌食、恶心、尿黄等症状。于医院检查，检查结果为巩膜黄染，胆红素37微摩尔每升（正常血清胆红素总量为3.4∽17.1微摩尔每升），结合胆红素为20微摩尔每升，尿胆红素阳性，粪便颜色正常。判断此男性患者最有可能患</text>
+</view>
+<view class='A'>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>A 溶血性黄疸</button>
+<button bindtap='T' hover-class='F' disabled='{{q<1}}' plain='true'>B 肝细胞性黄疸 </button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>C 阻塞性黄疸</button>
+<button bindtap='F' hover-class='F' disabled='{{q<1}}' plain='true'>D 生理性黄疸</button>
+</view>
+<view>
+<text wx:if="{{q<1}}">答案：B</text>
+</view>
+</view>
+
+
